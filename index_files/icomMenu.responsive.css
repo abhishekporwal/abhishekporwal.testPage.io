@@ -1,0 +1,464 @@
+﻿/*-------------------------------------  MAJ.27-01-2017.  -----------------------------------------------
+
+    ***  CSS MISCO --> /ImagesPortal/Localisation/Inmac/Styles/FR/4/icomMenu.css  ***   
+	***  TPL MISCO --> * WPNavMegaMenu2		
+
+...................................................................................................*/
+
+
+
+icom-menu-container a.icom-menu-mobile,category-layout{display: none}
+.icom-menu-mobile {
+    display: none;
+    padding: 20px;
+}
+
+
+.icom-menu {
+    margin: 0 auto;
+    width: 990px;
+    list-style: none;
+    padding: 0;
+    position: relative;
+    /*z-index: 999;*/
+    box-sizing: border-box;
+}
+
+.icom-menu > li {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+
+li.logiciel-Level1 {
+    line-height: 45px;
+}
+/*
+.icom-menu-cat-link:hover, .icom-menu-cat-link:active , .icom-menu-cat-link:visited {
+    background: url(/ImagesPortal/FR/localisation/4/images/icom-menu-cat-link-arrow-black.png) no-repeat 125px;
+}
+
+*/
+.icom-menu > li a {
+    text-decoration: none;
+    display: block;
+}
+
+.icom-menu > li > ul {
+    display: none;
+    width: 99.8%;
+    padding: 2px 2px;
+    z-index: 999;
+    left: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    position: absolute;
+    top: 65px;
+}
+
+
+.icom-menu > li > ul > li > div.div-icom-menu-links {
+    float: left;
+    width: 20%;
+    margin: 15px 0;
+}
+
+/*---------Colors--------*/
+#divMenuCatalog .active, #divMenuCatalog .activeGrey {
+    
+   
+}
+
+
+.icom-menu-container {
+    background-color: #2b7cb1;
+}
+
+.icom-menu {
+}
+
+.icom-menu > li {
+/*   background-color: #2b7cb1;*/ 
+
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.icom-menu > li:first-child {
+}
+
+.icom-menu > li:last-child {
+/*    background-color: #03314f;*/
+   /* border-right: 1px solid #35a0eb;*/
+}
+
+.icom-menu > li.last-item {
+    /*background-color: #03314f;*/
+ /*   border-right: 1px solid #35a0eb;*/
+}
+
+.icom-menu > li:hover {
+    background: #fff;
+        background: rgba(43,43,43,1);
+   -webkit-transition: all 0.5s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+
+.icom-menu > li:hover a {
+   color:#fff
+}
+
+.icom-menu-cat-link {
+    color: red;
+}
+
+.icom-menu > li > a {
+    color: #202020;
+    text-align: center;
+    font-family: 'Roboto',Arial,sans-serif;
+
+}
+
+.icom-menu > li > ul {
+    background-color: rgba(35,36,40,0.98);
+    background-color:#202020;
+
+
+    box-shadow: 0 2px 2px rgba(0,0,0,.1);
+	      box-shadow: 0 0 0 1px rgba(255,255,255,0.1) inset; 
+}
+
+ #divMenuCatalog .div-icom-menu-links a.active:after{
+     /*
+     content:"";background-color: #35a0eb;width: 2px;height: 20px;position: absolute;
+ margin-left:20px;margin-top:-2px; 
+*/
+
+
+     /**/
+
+  content:"";
+ position: absolute;
+ color: #35a0eb;
+ margin-left: 15px;
+ margin-top: 2px;
+ width: 0;
+ height: 0;
+ border-style: solid;
+ border-width: 6px 0 6px 6px;
+ border-color: transparent transparent transparent #359feb;
+
+ }
+
+
+
+.icom-menu > li > ul > li > div.div-icom-menu-links a {
+    color: #fff;
+    padding: 10px 20px 10px 10px;
+    font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: right;
+}
+
+
+
+.icom-menu > li > ul > li > div.div-icom-menu-items > ul > li > a {
+	
+	font-weight: bold;
+color: #fff;
+text-transform: uppercase;
+font-size: 12px;
+}
+
+
+
+/*-----------------*/
+.icom-menu > li > ul > li > div.category-layout:before{	 
+	
+	
+	 content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	
+}
+
+.icom-menu > li > ul > li > div.category-layout {
+    display: none;
+    float: right;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #03314f;
+    text-align: center;
+    border-top: 0px solid rgba(35,36,40,1);
+  
+}
+.icom-menu > li > ul > li > div.category-layout a{display: inline-block;float: left}
+.icom-menu > li > ul > li > div.category-layout img{position: relative;z-index: 3;width: 100%}
+
+.icom-menu > li > ul > li > div.category-layout a {
+    padding: 0px 0px;
+	width: 200px;
+	margin-right: 38px
+}
+.icom-menu > li > ul > li > div.category-layout a:last-child {
+
+	margin-right:0
+}
+
+
+.icom-menu > li > ul > li > div.category-layout ul > li {
+    display: block;
+}
+
+.icom-menu > li > ul > li > div.div-icom-menu-items {
+    
+
+	
+	float: right;
+    width: 79%;
+    margin: 0;
+    background-color:#2f3639;
+    padding:20px;
+    margin-top:5px 5px 0px 0px 
+
+}
+
+.icom-menu > li > ul > li > div.div-icom-menu-items > ul > li {
+   width: 23.5%;
+    float: left;
+    padding: 5px;
+}
+
+.icom-menu > li > ul > li > div.div-icom-menu-items > ul > li > a {
+   padding-bottom:10px;
+}
+
+.icom-menu > li > ul > li > div.div-icom-menu-items > ul > li > ul > li > a {
+    padding: 0px;
+    font-size:12px
+}
+
+.icom-menu > li > ul > li > div.div-icom-menu-items > ul > li > ul > li > a:hover {
+    text-decoration: underline;
+
+}
+
+.icom-menu > li > ul > li > div > ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.icom-menu > li > ul > li > div > ul > li {
+    display: none;
+}
+
+.icom-menu > li > ul > li > div > ul > li > ul {
+    list-style: none;
+    line-height: 20px;
+   padding: 0px;
+	padding-bottom:15px
+}
+.icom-menu > li > ul > li > div > ul > li > ul a:link,
+.icom-menu > li > ul > li > div > ul > li > ul a:visited
+{color:rgba(255,255,255,0.50)}
+.icom-menu > li > ul > li > div > ul > li > ul > li > ul {/*no more then 4 levels*/
+    display: none;
+	
+}
+
+.icom-menu > li > ul > li > div > ul > li > ul:before, .icom-menu > li > ul > li > div > ul > li > ul:after{
+    content: "";
+    display: table;
+}
+
+.icom-menu > li > ul > li > div > ul > li > ul:after {
+    clear: both;
+}
+
+#cmcwebusercataloguenavmegamenuresponsive > table{width: 100%}
+
+
+
+.icom-menu-container>.icom-menu >li{width: 140px !important;height: 65px}
+.icom-menu-container>.icom-menu >li:after{width: 5px;height: 20px;}
+
+#divMenuCatalog .div-icom-menu-links a.active::after {
+  animation: zoomIn 0.4s forwards;
+}
+
+
+
+.icom-menu > li > ul > li > div.category-layout img{position: relative;z-index: 3;width: 100%}
+
+
+
+
+.category-layout a img:hover{  animation: pulse 0.3s forwards;}
+
+
+
+.div-icom-menu-items li[style="display: block;"]{  animation: fadeIn 0.3s forwards;}
+
+
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+
+
+
+
+
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+
+/*Only FF*/
+
+
+
+@-moz-document url-prefix() { 
+a.icom-menu-cat-link {
+	padding: 10px 10px 11px 10px;}
+}
+
+
+.icom-menu>li:before{
+content:"";background-color: #e9e9e9;width: 1px;height: 30px;position: absolute;top:17px;opacity: 1
+}
+
+
+.icom-menu > li:first-child::before {
+    content:none
+}
+
+ 
+ .category-layout{display:none}
+.icom-menu-subitem[style="display:block"] .category-layout{display:block}
+.icom-menu-container>.icom-menu >li:hover::before{display: none}
+
+
+.icom-menu-dropdown-icon{
+  
+font-size: 16px;}
+a.icom-menu-cat-link {
+  padding:11px 10px;
+  
+font-size: 16px;
+  
+font-family: 'Roboto condensed',Arial,sans-serif;
+  
+font-weight: 100;
+
+}

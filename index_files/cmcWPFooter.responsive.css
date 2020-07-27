@@ -1,0 +1,116 @@
+	.FooterLight {
+		width: 100%;
+		Background-color: #2B2B2B;
+	}
+
+	.FooterLightrow {
+		position: relative;
+		height: 90px;
+		width: 990px;
+		margin: auto;
+	}
+
+	.FooterLightcontent {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 100%;
+	}
+
+	.FooterLightcontent img {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.FooterLightcontent p {
+		color: #e3e3e3;
+		font-size: 10px;
+		line-height: 16px;
+		text-align: left;
+		letter-spacing: -0.2px;
+		margin: 0;
+		padding: 20px 0;
+	}
+
+
+#WPFooter .footerBlock1{overflow:hidden;margin-top:25px;color:#8d8d8d;margin:0}
+#WPFooter .footerBlock1 p{margin:8px}
+#WPFooter .footerBlock1 span{font-size:.85em}
+#WPFooter .footerBlock1 a{font-size:1.1em;color:#cccece}
+#WPFooter .footerBlock1 a:hover{text-decoration:inherit}
+#WPFooter .footerBlock1 .infoMarketing{margin-bottom:0}
+#WPFooter .footerBlock1 .infoMarketing li.info1{background:url(/imagesportal/localisation/inmac/images/responsive/common/icon-livraison.png) no-repeat 0 6px}
+#WPFooter .footerBlock1 .infoMarketing li.info2{background:url(/imagesportal/localisation/inmac/images/responsive/common/icon-paiement.png) no-repeat 0 6px}
+#WPFooter .footerBlock1 .infoMarketing li.info3{background:url(/imagesportal/localisation/inmac/images/responsive/common/icon-ecoute.png) no-repeat 0 6px}
+#WPFooter .footerBlock1 .infoMarketing li.info4{background:url(/imagesportal/localisation/inmac/images/responsive/common/icon-ref.png) no-repeat 0 6px}
+#WPFooter .footerBlock1 .infoMarketing ul{overflow:hidden;margin-bottom:0}
+#WPFooter .footerBlock1 .infoMarketing ul li{padding:19px 0 13px 50px}
+#WPFooter .footerBlock1 .infoMarketing{clear:both}
+#WPFooter .footerBlock1 .infoMarketing ul li a:link,#WPFooter .footerBlock1 .infoMarketing ul li a:visited,#WPFooter .footerBlock1 .infoMarketing ul li a:hover,#WPFooter .footerBlock1 .infoMarketing ul li a:active{font-size:11px;color:#4b4b4b;line-height:15px}
+#WPFooter .footerBlock1 .infoMarketing ul li a strong{display:block;text-transform:uppercase;font-size:14px}
+#WPFooter .footerBlock1 .infoMarketing ul{overflow:hidden;margin-bottom:0}
+#WPFooter .footerBlock1 .infoMarketing ul li{padding:16px 0 13px 50px}
+#WPFooter .footerBlock2{margin:35px 0 34px}
+#WPFooter .footerBlock2 ul{padding-left:10px}
+#WPFooter .footerBlock2 ul li{display:list-item;line-height:20px;list-style-type:none;margin-left:13px;text-align:left}
+#WPFooter .footerBlock2 ul li span{color:#0186cb;margin-right:5px;font-size:10px}
+#WPFooter .footerBlock2 ul li a{font-size:.9em;color:#cccece}
+#WPFooter .footerBlock2.footerRightBlock2{border-left:1px solid #444;padding:0 30px 0 30px;color:#dcdcdc;height:198px}
+#WPFooter .footerBlock2.footerRightBlock2 p{font-size:.9em;margin-bottom:5px}
+#WPFooter .footerBlock2 strong{display:inline-block;font-size:1.1em;color:#fff;margin-bottom:15px;margin-left:22px}
+#WPFooter .footerBlock2.footerRightBlock2 strong{margin-left:0}
+#WPFooter .footerBlock2.footer-contact-cta{text-align:center}
+#WPFooter .footerBlock2{border-left:1px solid #444;height:198px}
+#WPFooter .footerBlock2.footerBlockNb1{border-left:0}
+#WPFooter .footerBlock2.footerRightBlock2{border-right:0}
+#WPFooter .footerBlock2{color:#dcdcdc}
+#WPFooter .footerBlock2.footerRightBlock2 a:link,#WPFooter .footerBlock2.footerRightBlock2 a:visited{margin-top:10px}
+#WPFooter .footer-contact-cta{text-align:center}
+#WPFooter .socialNetworks{text-align:right;margin:26px 0 0 0}
+#WPFooter .newsletter{border-right:1px solid #444;margin:30px 0}
+#WPFooter .newsletter strong{color:#fff;font-size:1.1em;line-height:1.1em;padding:5px 0}
+#WPFooter .newsletter input[type="text"]{line-height:2.1em;height:33px;width:80%;border:0;padding-left:40px;background:#fff url(/imagesportal/localisation/inmac/images/responsive/common/icon-newsletter.gif) no-repeat 10px center;font-style:italic;float:left}
+#WPFooter .newsletter button{font-family: 'Roboto',Arial,sans-serif;padding: 0;border:0;border-radius: 0;-webkit-border-radius: 0px;line-height:2.6em;height:33px;color:#2b2b2b;font-size:12px;font-weight:bold;transition:all .25s ease-in-out 0s;width:50px;border:0;background-color:#fff;position:relative;right:5px}
+#WPFooter .footerLine4{padding:17px 0;border-bottom:1px solid #dcdcdc}
+#WPFooter .footerLine4 ul{margin-bottom:inherit;border-left:1px solid #dcdcdc}
+#WPFooter .footerLine4 ul li,#WPFooter .footerLine4 div{height:32px;line-height:32px;text-align:center;display:inline-block}
+#WPFooter .footerLine4 ul:last-child li{padding:0}
+#WPFooter .footerLine4 div{text-align:inherit}
+#WPFooter .footerLine4 ul li img,#WPFooter .footerLine4 div img{vertical-align:middle;display:inline-block}
+#WPFooter .footerLine5{font-size:.8em;color:#5d5d5d;margin-top:13px}
+#WPFooter .footerLine1TabletMobile{margin:40px 0 0;padding:0}
+#WPFooter .footerLine1TabletMobile .back-to-top{color:#5a5a5a;display:block;padding:12px 0 10px;text-align:center;text-transform:uppercase;margin:10px 0}
+#WPFooter .footerLine1TabletMobile .back-to-top:link,#WPFooter .footerLine1TabletMobile .back-to-top:visited,#WPFooter .footerLine1TabletMobile .back-to-top:hover,#WPFooter .footerLine1TabletMobile .back-to-top:active{text-decoration:none}
+#WPFooter .footerLine1TabletMobile .back-to-top span{margin:0 20px}
+#WPFooter .footerLine2TabletMobile{text-align:center}
+#WPFooter .footerLine2TabletMobile a,#WPFooter .footerLine2TabletMobile a:link,#WPFooter .footerLine2TabletMobile a:visited,#WPFooter .footerLine2TabletMobile a:hover,#WPFooter .footerLine2TabletMobile a:active{color:#2b2b2b;text-decoration:none}
+#WPFooter .footerLine2TabletMobile span{font-weight:bold}
+#WPFooter .footerLine3TabletMobile{width:50%;margin:0 auto}
+#WPFooter .socialNetworks strong{color:#fff;text-align:left;padding:5px 5% 15px;color:#fff;font-size:1.1em;line-height:1.1em}
+
+body.tabMobDevice #WPFooter .footerBlock1{margin:0}
+body.tabMobDevice #WPFooter .footerBlock1 .infoMarketing ul li.info1,body.tabMobDevice #WPFooter .footerBlock1 .infoMarketing ul li.info2,body.tabMobDevice #WPFooter .footerBlock1 .infoMarketing ul li.info3,body.tabMobDevice #WPFooter .footerBlock1 .infoMarketing ul li.info4{padding:40px 0 0 0;background-position:top center;text-align:center}
+body.tabMobDevice #WPFooter .footerLine2TabletMobile{margin-top:34px;font-size:1.1em}
+body.tabMobDevice #WPFooter .footerBlock2{margin:45px 0 34px;height:inherit}
+body.tabMobDevice #WPFooter .footerBlock2 ul{width:80%;margin:0 auto;padding-left:0}
+body.tabMobDevice #WPFooter .footerBlock2 strong{margin-left:16%}
+body.tabMobDevice #WPFooter .newsletter strong{padding:5px 0 15px}
+body.tabMobDevice #WPFooter .newsletter{margin:10px 0;margin-top:20px}
+body.tabMobDevice #WPFooter .socialNetworks{margin:10px 0;margin-top:20px}
+body.tabMobDevice #WPFooter .socialNetworks img{height:33px}
+body.tabMobDevice #WPFooter .footerLine4 ul{border-left:0;border-right:1px solid #dcdcdc}
+body.tabMobDevice #WPFooter .footerLine4 ul:last-child{border-right:0}
+body.tabMobDevice #WPFooter .footerLine4{margin-top:15px;padding:8px 0}
+body.mobileDevice #WPFooter .infoMarketing ul li.info1,body.mobileDevice #WPFooter .infoMarketing ul li.info2{margin-bottom:5%}
+body.mobileDevice #WPFooter .footerBlock1{background-color:#fafafa;border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;padding:5%}
+body.mobileDevice #WPFooter .newsletter{background-color:#353535;overflow:auto;padding-bottom:5%;margin:0}
+body.mobileDevice #WPFooter .newsletter strong{text-align:center;padding:15px 0}
+body.mobileDevice #WPFooter .newsletter div{text-align:center}
+body.mobileDevice #WPFooter .footerLine2TabletMobile{margin:20px 0}
+body.mobileDevice #WPFooter .footerLine2TabletMobile p{margin:0}
+body.mobileDevice #WPFooter .footerLineMobile ul{margin:10px auto 0 auto;width:200px}
+body.mobileDevice #WPFooter .footerLineMobile ul li{float:left;display:inline-block;padding:0 5px;margin:10px 0;border-right:1px solid #353535;line-height:12px}
+body.mobileDevice #WPFooter .footerLineMobile ul li:last-child{border-right:0 solid #353535}
+body.mobileDevice #WPFooter .footerLineMobile ul li a:link,body.mobileDevice #WPFooter .footerLineMobile ul li a:visited,body.mobileDevice #WPFooter .footerLineMobile ul li a:hover,body.mobileDevice #WPFooter .footerLineMobile ul li a:visited{color:#2a2a2a}
+body.mobileDevice #WPFooter .footerLine4{text-align:center;margin-top:0;margin-bottom:5px;border:0}
+body.mobileDevice #WPFooter .newsletter button{float:left}

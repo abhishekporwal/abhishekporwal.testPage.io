@@ -1,0 +1,1753 @@
+/****************** SAMSUNG STATIC PAGES STYLES ******************/
+
+
+/*************************** START GENERAL ***************************/
+    body { overflow-x: hidden; font-family:roboto,Tahoma,Geneva,sans-serif; }
+/*************************** END GENERAL ***************************/
+
+/*************************** START WRAPPER MAIN ***************************/
+    .staticPage #fr_wrapper { position:relative; width:100%; margin:0 auto; box-sizing:border-box; }
+    .staticPage #fr_wrapper * { font-family:roboto,Tahoma,Geneva,sans-serif; box-sizing:border-box; }
+    .staticPage #fr_wrapper p { font-size: 1em; line-height: 22px; text-align: left; margin: 15px 0; padding: 0; }
+    .staticPage #fr_wrapper a  { text-decoration: none; }
+/*************************** END WRAPPER MAIN ***************************/
+
+
+/******************************************************************** START SAMGSUNG Pages ******************************************************************/
+
+/*************************** START HEAD CONTAINER ***************************/
+    .staticPageSamsung .head-container { margin:0 auto; }
+    .staticPageSamsung .head-container .list-group-item {padding: 0; border: none;}
+    .staticPageSamsung .head-container .bx-wrapper { margin-top: 0px; }
+    .staticPageSamsung .head-container .bx-wrapper .bx-prev {background: none;}
+    .staticPageSamsung .head-container .bx-wrapper .bx-next {background: none;}
+    .staticPageSamsung .head-container .bx-wrapper .bx-controls-direction a {text-indent: initial !important;}
+    .staticPageSamsung .head-container .fa-chevron-left:before, .staticPageSamsung .head-container .fa-chevron-right:before,
+    .staticMicrosoft .fa-chevron-left:before, .staticMicrosoft .fa-chevron-right:before {width: 20px; height: 20px; background-color: inherit; content: " " !important; display: inline-block; border-bottom: 2px solid #c7c9cb; border-left: 2px solid #c7c9cb; transform: rotate(45deg); margin-bottom: 10px; top: 6px; position: relative; left: 10px;}
+    .staticPageSamsung .head-container .fa-chevron-left:hover:before, .staticPageSamsung .head-container .fa-chevron-right:hover:before,
+    .staticMicrosoft .fa-chevron-left:hover:before, .staticMicrosoft .fa-chevron-right:hover:before {border-bottom: 2px solid #9fa2a4; border-left: 2px solid #9fa2a4;}
+    .staticPageSamsung .head-container .fa-chevron-right:before, .staticMicrosoft .fa-chevron-right:before {transform: rotate(-135deg); right: 10px; left: 0;}
+    .staticPageSamsung .head-container .bx-wrapper .bx-controls-direction a {text-indent: initial;}
+    .staticPageSamsung .head-container .bx-wrapper .bx-controls-direction a span {font-family: FontAwesome !important; width: 32px; height: 32px;}
+    .staticMicrosoft .carousel-control {position: absolute; top: 50%; margin-top: -16px; outline: 0; width: 32px; height: 32px; text-indent: initial; z-index: 998; background-image: none;}
+    .staticMicrosoft .carousel-control.left {left: 10px;}
+    .staticMicrosoft .carousel-control.right {right: 20px;}
+    .staticMicrosoft #myCarousel .carousel-inner {border: #b6b6b6 1px solid;}
+    .staticMicrosoft #myCarousel .carousel-indicators {display: none;}
+    /*************************** END HEAD CONTAINER ***************************/
+
+/*************************** START MENU CONTAINER ***************************/
+    .staticPageSamsung .menucontainer { position: relative; }
+    .staticPageSamsung .menucontainer .list-group-item { border:transparent; border-right: 1px solid white; }
+    .staticPageSamsung .menucontainer .list-group-item:first-child { border-top-right-radius: 0px; border-top-left-radius: 0px; }
+    .staticPageSamsung .menucontainer .navbar-inverse { background:transparent; border:transparent; }
+    .staticPageSamsung .menucontainer ul.nav { width: 100%; }
+    .staticPageSamsung .menucontainer ul.nav > li { width: 25%; border-right: 1px solid #fff; }
+    .staticPageSamsung .menucontainer ul.nav li a { font-size: 16px; color: #fff; cursor: pointer; }
+    .staticPageSamsung #samgsungmenu .navbar-nav > .active > a, .staticPageSamsung .navbar-inverse .navbar-nav > .active > a:hover, .staticPageSamsung .navbar-inverse .navbar-nav > .active > a:focus, { background-color:transparent; }
+    .staticPageSamsung .navbar { margin-bottom:0; }
+    .staticPageSamsung .dropdown-menu {background-color:#666; border:none; box-shadow:none;}
+    .staticPageSamsung .dropdown-menu > li > a:hover, .staticPageSamsung .dropdown-menu > li > a:focus { background-color:#888; }
+    .staticPageSamsung .dropdown-menu > li > a { padding:10px 20px; }
+    .staticPageSamsung .dropdown-menu > li { width:100%; }
+    .staticPageSamsung .menucontainerMain {background: #666; margin-left: -12px; margin-right: -12px; margin-bottom: 25px;}
+    .staticPageSamsung .menucontainer ul.nav > li:first-child {border-left: 1px solid #fff;}
+    .staticPageSamsung .dropdown-menu > li a {font-size: 14px !important;}
+    .staticPageSamsung .dropdown-menu > li {border-top: 1px solid #fff;}
+    .staticPageSamsung .navbar-inverse .navbar-nav > li > a:hover, .staticPageSamsung .navbar-inverse .navbar-nav > li > a:focus {background-color:#888;}
+    .staticPageSamsung .navbar-header .navbar-brand {display: none;}
+    .staticPageSamsung .navbar-inverse .navbar-nav > .open > a, .staticPageSamsung .navbar-inverse .navbar-nav > .open > a:hover, .staticPageSamsung .navbar-inverse .navbar-nav > .open > a:focus {background-color:#888;}
+    .staticPageSamsung .dropdown:hover .dropdown-toggle {background: #888;}
+    .staticPageSamsung .menucontainer .headerarea {padding-top: 25px; padding-bottom: 25px; margin-left: -4px; margin-right: -4px;}
+    .staticPageSamsung .menucontainer .headerarea .title-boutique { font-size: 18px; font-weight: 700; padding-top: 2px; }
+    .staticPageSamsung .menucontainer .headerarea img.headerlogo { display:inline-block; float: left; margin-right: 20px; max-height: 50px; width: auto; }
+
+/*************************** END MENU CONTAINER ***************************/
+
+/*************************** START CONTENT CONTAINER ***************************/
+    .staticPage .contentcontainer { position: relative; background:transparent !important; }
+    .staticPage .contentcontainer img { margin-top: 0px; }
+    .staticPageSamsung .contentcontainer h2 { font-weight: bold; font-family: roboto,Tahoma,Geneva,sans-serif; }
+    .staticPageSamsung .contentcontainer h2.box {color: #0062a1; padding: 20px 0;}
+    .staticPageSamsung nav ul { list-style: none; padding:0; }
+    .staticPageSamsung nav ul li { display: inline-block; }
+    .staticPageSamsung .sectionSamsung {padding:10px 0;}
+    .staticPageSamsung .sectionSamsung.sectionSamsungGJ {padding:20px 0 10px;}
+    .staticPageSamsung .sectionSamsungN8 {padding-bottom: 30px;}
+    .staticPageSamsung .text-bold {font-weight: bold;}
+    .staticPageSamsung .small-text {font-size: 0.8em;}
+    .staticPageSamsung .text-mini {font-size: 1em; display: block;}
+    .staticPageSamsung .cta-container .btn {display: inline-block; cursor: pointer; font-family: 'Roboto Condensed',Arial,sans-serif; text-transform: uppercase; -webkit-border-radius: 2px; border-radius: 2px; text-align: center; text-decoration: none; font-size: 1em; font-weight: 700; height: initial; padding: 0.6em 1em; color: #fff; border: 2px solid #00B45D; background-color: #00B45D;}
+    .staticPageSamsung .cta-container .btn:hover, .staticPageSamsung .cta-container .btn:focus {color: #fff; text-decoration: none; border: 2px solid #25BD74; background-color: #25BD74; -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0); box-shadow: inset 0 0px 0px rgba(0,0,0,0);}
+    .staticPageSamsung .fullImg {width: 100%;}
+    .staticPageSamsung .glyphicon {font-family: 'Glyphicons Halflings' !important; color: #ccc;}
+    .staticPageSamsung .logoimg {padding: 20px 0;}
+    .staticPageSamsung .graybox {background-color: #efefef;}
+    .staticPageSamsung .red {color:#dd0000;}
+    .staticPageSamsung .blue {color:#0084ea;}
+    .staticPageSamsung .text-right {text-align: right;}
+    .staticPageSamsung .text-left {text-align: left;}
+    .staticPageSamsung .text-center {text-align: center;}
+    .staticPageSamsung .contentcontainer .arrow-down-wht {width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 30px solid #fff; left: 47%; top: -25px; position: absolute;}
+    .staticPageSamsung .contentcontainer .arrow-down-gray {width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 30px solid #EFEFEF; left: 47%; top: 26px; position: absolute;}
+
+    /*************************** START SCROLL ELEMENTS ***************************/
+    .staticPageSamsung .boutique-samsung-mobilite-bottom-content.fixedPositionBottom #staticInformation > div { animation-duration: 0.2s; animation-fill-mode: both; animation-name: fadeInDown; background:rgba(72,79,89,0.9); position: fixed; bottom:0px; left:0; z-index:1000; width:100%; }
+    .staticPageSamsung .boutique-samsung-mobilite-bottom-content.fixedPosition #staticInformation > div { animation-duration: 0.2s; animation-fill-mode: both; animation-name: fadeInDown; background:rgba(72,79,89,0.9); position: fixed; top:0px; left:0; z-index:500; width:100%; }
+    .staticPageSamsung .boutique-samsung-mobilite-bottom-content.fixedPosition #staticInformation a.contact.btn,
+    .staticPageSamsung .boutique-samsung-mobilite-bottom-content.fixedPositionBottom #staticInformation a.contact.btn { margin: 10px auto; }
+    .staticPageSamsung .boutique-samsung-mobilite-bottom-content #staticInformation { position: static; }
+    /*************************** END SCROLL ELEMENTS ***************************/
+
+/*************************** END CONTENT CONTAINER ***************************/
+
+/*************************** START CONTACT FORM ***************************/
+    .staticPage .form-layer { position: fixed; opacity: 1; top: 0; left: 0; bottom: 0; right: 0; background: rgba(0, 0, 0, 0.8); z-index: 999; transition: all 0.3s ease; }
+    .staticPage .form-layer.hide-layer {opacity: 0; z-index: -50; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease; }
+    .staticPage .contact-form, .staticPageSamsung .contact-form * {box-sizing: border-box; }
+    .staticPage .contact-form {position: fixed; top: 0; bottom: 0; right: 0; z-index: 1000; width: 400px; background: url('/imagesportal/localisation/inmac/images/responsive/common/bg-form.jpg') top left repeat-y; transform: translateX(0); -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease; padding: 40px; font-family: roboto,Tahoma,Geneva,sans-serif;}
+    .staticPage .contact-form .btn-cta { display: inline-block; font-family: roboto,Tahoma,Geneva,sans-serif !important; font-size: 20px; font-weight: normal; color: #ffffff; background: #81c90d; line-height: 40px; text-decoration: none; padding: 0 15px 0 20px; margin: 10px 0; border: none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease; }
+    .staticPage .contact-form .btn-cta.modrad { -webkit-border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; border-radius: 5px 5px 0 0; }
+    .staticPage .contact-form .btn-cta:hover { color: #ffffff; background: #6aa904; text-decoration: none; }
+    .staticPage .contact-form.close {transform: translateX(400px);}
+    .staticPage .contact-form input[type="text"] {width: 100%; display: block; height: 50px; margin: 0 auto 15px; padding: 0 15px; border-radius: 5px; box-sizing: border-box; background: #fff;}
+    .staticPage .contact-form input[type="text"]:focus {outline: none;}
+    .staticPage .contact-form textarea {width: 100%; display: block; height: 80px; margin: 0 auto 15px; padding: 10px 15px; border-radius: 5px; background: #fff;}
+    .staticPage .contact-form h2 {color: #fff; font-weight: 400; width: 300px; display: block; margin: 0 auto 15px; text-align: center; font-size: 1.4em; line-height: 1em;}
+    .staticPage .contact-form .btn-close {position: absolute; z-index: 1001; top: 0; right: 0; font-size: 24px; display: block; color: #fff; padding: 15px 20px; margin: 0; cursor: pointer; text-decoration: none;}
+    .staticPage .req-text {width: 300px; margin: 15px auto; color: #ffffff; font-size: 16px; text-align: left;}
+    .staticPage .btn-wrapper {position: absolute; top: 42%; left: -94px; z-index: 998; transform: rotate(-90deg); box-sizing: border-box;}
+    .staticPage .contact-form.close {opacity: 1;}
+    .staticPage .contact-form .btn.modrad {font-size: 14px; font-weight: normal; font-family: roboto,Tahoma,Geneva,sans-serif; padding: 5px 15px;}
+/*************************** END CONTACT FORM ***************************/
+
+/*************************** START DESKTOP DEVICE ***************************/
+    body.desktopDevice .staticPageSamsung .head-container {padding: 0;}
+    body.desktopDevice .staticPageSamsung .head-container .list-group-item {width:984px !important;}
+/*************************** END DESKTOP DEVICE ***************************/
+
+/*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .staticPageSamsung #fr_wrapper p {font-size: 14px;}
+    body.tabMobDevice .staticPageSamsung .menucontainer ul.nav > li {width: 23%;}
+    body.tabMobDevice .staticPageSamsung .menucontainer ul.nav > li:nth-child(4) {width: 30%;}
+    body.tabMobDevice .staticPageSamsung .menucontainer {width: 100%;}
+    body.tabMobDevice .staticPage a.btn:link {font-size:0.8em;}
+    body.tabMobDevice .staticPage a.btn.modrad:link {font-size:12px;}
+    body.tabMobDevice .staticPage .contact-form .btn-wrapper {left: -85px;}
+    body.tabMobDevice .staticPageSamsung .noheight {height: 0;}
+/*************************** END TABLET DEVICE ***************************/
+
+/*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .staticPageSamsung #fr_wrapper p {font-size: 12px;}
+    body.mobileDevice .staticPageSamsung #fr_wrapper h2 {font-size: 22px;}
+    body.mobileDevice .staticPageSamsung .contentcontainer nav ul {display: none;}
+    body.mobileDevice .staticPageSamsung .contentcontainer select {display: inline-block; text-align: center;}
+    body.mobileDevice .staticPageSamsung .imgresize {padding:10px 0;}
+    body.mobileDevice .staticPageSamsung .menucontainer {padding: 0;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav > li,
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav > li:nth-child(2), body.mobileDevice .staticPageSamsung .menucontainer ul.nav > li:nth-child(4) {width:100%;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav li {border-bottom:1px solid #808080; border-right: none;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav li:last-child {border-bottom:none;}
+    body.mobileDevice .staticPageSamsung .menucontainer .navbar-nav {margin:0;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav li a {font-size:14px; text-indent: 10px;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav li .dropdown-menu li {border-bottom:none;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav li .dropdown-menu {background-color:#595959;}
+    body.mobileDevice .staticPageSamsung .dropdown-menu > li > a {padding: 10px; font-size: 12px; text-indent: 20px;}
+    body.mobileDevice .staticPageSamsung .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {color: #fff; line-height: 1.6em;}
+    body.mobileDevice .staticPage .contact-form {opacity: 0;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.dropdown-menu br {display: none;}
+    body.mobileDevice .staticPageSamsung #fr_wrapper .contentcontainer h4, body.mobileDevice .staticPageSamsung #fr_wrapper .contentcontainer p {text-align:center;}
+    body.mobileDevice .staticPageSamsung #fr_wrapper .contentcontainer .sectionSamsung {text-align:center;}
+    body.mobileDevice .staticPageSamsung #fr_wrapper .contentcontainer .sectionSamsung .btn { display: block; width: 50%; margin: 0px auto; line-height: 16px; font-size: 1em !important; padding: 5px 7px;}
+    body.mobileDevice .staticPageSamsung .sectionSamsungGS .cta-container, body.mobileDevice .staticPageSamsung .sectionSamsungGJ .cta-container {top: -20px; position: relative; height: auto;}
+    body.mobileDevice .staticPageSamsung .sectionSamsungN8 .cta-container {top: 0px; position: relative; height: auto;}
+    body.mobileDevice .staticPageSamsung .head-container .fa-chevron-left:before, body.mobileDevice .staticPageSamsung .head-container .fa-chevron-right:before {width: 12px; height: 12px;}
+    body.mobileDevice .navbar-header .navbar-brand {display: block;}
+    body.mobileDevice .navbar-inverse .navbar-toggle {border-color: transparent;}
+    body.mobileDevice .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {background-color:transparent; border-color: transparent;}
+    body.mobileDevice .navbar-inverse .navbar-brand {color: #fff; padding-left: 10px; margin-top: -1px;}
+    body.mobileDevice .staticPageSamsung .text-center {text-align: left;}
+    body.mobileDevice .staticPageSamsung .menucontainerMain .container {margin-left: -4px; margin-right: -4px;}
+    body.mobileDevice .staticPageSamsung .menucontainer ul.nav > li:first-child {border-left:none;}
+    body.mobileDevice .staticPageSamsung .dropdown-menu > li {border-top: 1px solid #777;}
+    body.mobileDevice .staticPageSamsung .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, body.mobileDevice .staticPageSamsung .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus { background-color:#888; }
+    body.mobileDevice .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: #666;}
+    body.mobileDevice .staticPageSamsung .menucontainer .headerarea {display: none;}
+    body.mobileDevice .bx-wrapper .bx-viewport {margin-bottom: 0px;}
+    body.mobileDevice .staticPageSamsung .menucontainerMain {margin-bottom: 15px;}
+/*************************** END MOBILE DEVICE ***************************/
+    
+/*************************** START BOTH TABLET & MOBILE DEVICES ***************************/
+    body.tabMobDevice .staticPageSamsung #fr_wrapper h2, body.mobileDevice #fr_wrapper h2 {text-align:center;}
+    body.tabMobDevice .staticPageSamsung .bx-wrapper .bx-viewport, body.mobileDevice .bx-wrapper .bx-viewport {height:auto !important;}
+/*************************** END BOTH TABLET & MOBILE DEVICES ***************************/
+
+
+/*************************** START boutique-samsung-smartphones / cmcpage15479 Page ***************************/
+
+    .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGS .cta-container {margin-top: -30px;}
+    .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungN8 .cta-container {margin-top: -20px;}
+    .boutique-samsung-smartphones.staticPageSamsung .sectionSamsung.graybox {padding: 25px;}
+    .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungmain {margin-bottom: 30px;}
+    .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGA, .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungN8 {padding: 50px 0;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung img.imgresize, body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungmain img.imgresize {width: 90%;}
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGS .cta-container, body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungN8 .cta-container, body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGJ .cta-container {margin-top: -80px;}
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungN8 {padding-bottom: 0px;}
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungmain {margin-bottom: 10px;}
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsung.graybox {padding: 25px 25px 0;}
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsung.graybox .arrow-down-gray {top: 1px;}
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGA {padding: 30px 0;}
+    body.tabMobDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungN8 {padding: 30px 0 0;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGS .cta-container {margin-top: 20px;}
+    body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungN8 .cta-container, body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGJ .cta-container {margin-top: 20px;}
+    body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungmain {margin-bottom: 20px;}
+    body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGS, body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungN8 {margin-bottom: 30px;}
+    body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsungGJ {margin-bottom: 40px;}
+    body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsung.graybox .arrow-down-gray, body.mobileDevice .boutique-samsung-smartphones.staticPageSamsung .sectionSamsung.graybox .arrow-down-wht {left: 42%;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/*************************** END boutique-samsung-smartphones / cmcpage15479 Page ***************************/
+
+
+/*************************** START boutique-samsung-tablettes-tactiles / cmcpage15480 Page ***************************/
+
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .nav-pills li a {font-size: 15px; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; border: 1px solid #e0e0e0; border-radius: 0; font-weight: bold; margin-bottom: 7px; margin-right: 5px; padding: 15px 13px; background: #fff;}
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .nav-pills li.active a {border: 1px solid #0062a1; background-color: transparent;}
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .nav-pills li:last-child a {margin-right: 0px; padding: 15px 14px 15px 13px;}
+    /* FF ONLY */ @-moz-document url-prefix() { 
+      .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .nav-pills li:last-child a {padding: 15px 14px 15px 13px;}
+    }
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .tab-content img.tab-product {transition: all .2s ease-in-out;}
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .tab-content img.tab-product:hover {transform: scale(1.06);}
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .nav-pills {margin-top: 30px; padding-right: 0;}
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .tab-content {padding: 20px; border: 1px solid #0062a1; margin-bottom: 30px;}
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .cta-container {margin-top: 10px;}
+    .boutique-samsung-tablettes-tactiles.staticPageSamsung .tab-pane h4 {margin-top: 10px;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .nav-pills a img {width: 90%;}
+    body.tabMobDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .nav-pills li {width: 19.7%;}
+    body.tabMobDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .nav-pills li a {margin-right: 2px;}
+    body.tabMobDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .nav-pills li a {padding: 10px 5px;}
+    body.tabMobDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .tabimgresize {width: 100%; max-width: 366px; height: auto;}
+    body.tabMobDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .contentcontainer .tab-content img.tab-product {width: 100%;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .nav-pills li {width: 49.4%; margin-left: 2px;}
+    body.mobileDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .nav-pills li:last-child {margin-left: 25%;}
+    body.mobileDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .nav-pills li a {margin-bottom: 5px;}
+    body.mobileDevice .boutique-samsung-tablettes-tactiles.staticPageSamsung .tab-pane div {text-align: center;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/*************************** END boutique-samsung-tablettes-tactiles / cmcpage15480 Page ***************************/
+
+
+/*************************** START boutique-samsung-accessoires / cmcpage15481 Page ***************************/
+
+    .boutique-samsung-accessoires.staticPageSamsung h4 {padding-top: 10px;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionSamsungmain {margin-bottom: 50px;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionEPsmartphone .cta-container, .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresT .cta-container {margin-top: 20px;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC .cta-container {margin-top: -30px;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionObjets {margin-bottom: 30px;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionSamsung.graybox {padding: 25px;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionObjets, .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC {padding: 50px 0;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC .cta-container {margin-top: -20px;}
+    .boutique-samsung-accessoires.staticPageSamsung .sectionObjets .cta-container {margin-top: 10px;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC .imgresize, body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresT .imgresize {width: 90%;}
+    body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC .cta-container {top: -80px; position: relative;}
+    body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresT .cta-container {margin-top: -30px;}
+    body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionObjets {margin-bottom: 0px;}
+    body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionObjets, body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC {padding: 40px 0 0px;}
+    body.tabMobDevice .boutique-samsung-accessoires.staticPageSamsung .sectionSamsungmain {margin-bottom: 30px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung #fr_wrapper .contentcontainer .sectionSamsungmain {text-align: center;}
+    body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionSamsungmain {margin-bottom: 0px;}
+    body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionEPsmartphone .cta-container, body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresT .cta-container {margin-top: 0px;}
+    body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC .cta-container {top:20px;}
+    body.mobileDevice .sectionAccessoiresT {margin-top:30px;}
+    body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresT .cta-container {top: 0;}
+    body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionSamsung.graybox .arrow-down-gray, body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionSamsung.graybox .arrow-down-wht {left: 42%;}
+    body.mobileDevice .boutique-samsung-accessoires.staticPageSamsung .sectionAccessoiresC {padding: 40px 0 20px;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/*************************** END boutique-samsung-accessoires / cmcpage15481 Page ***************************/
+
+
+/*************************** START boutique-samsung-mobilite / cmcpage15478 Page ***************************/
+
+    .boutique-samsung-mobilite.staticPageSamsung .btn-cta2 { background: transparent!important; color: #81c90d; border: 1px solid #81c90d!important; width: 30%; margin: 0 1%; font-size: 18px; line-height: 40px; text-align: center; vertical-align: middle; }
+    .boutique-samsung-mobilite.staticPageSamsung .btn-cta2:hover { background: #81c90d!important; color: #ffffff; border: none!important; }    
+    .boutique-samsung-mobilite.staticPageSamsung .two-line { line-height: 20px!important; }
+    .boutique-samsung-mobilite.staticPageSamsung .section1, .boutique-samsung-mobilite .section2, .boutique-samsung-mobilite .section3 { padding: 25px 25px; margin: 20px 0; position: relative; }
+    .boutique-samsung-mobilite.staticPageSamsung .graybox { padding-bottom: 25px; }
+    .boutique-samsung-mobilite.staticPageSamsung a.contact.btn { margin-top: 30px; color:#fff; }
+    .boutique-samsung-mobilite.staticPageSamsung .arrow-down { width: 0; height: 0; border-left: 30px solid transparent; border-right: 30px solid transparent; border-top: 30px solid #fff; left: 50%; position: absolute; top: -40px; }
+    .boutique-samsung-mobilite.staticPageSamsung .section2 .arrow-down { border-top-color: #EFEFEF; }
+    .boutique-samsung-mobilite.staticPageSamsung .section3 .arrow-down { position: absolute; top: 0px; }
+    .boutique-samsung-mobilite.staticPageSamsung .contactsection.graybox, .boutique-samsung-mobilite.staticPageSamsung .contactsection img { padding: 0; }
+    .boutique-samsung-mobilite.staticPageSamsung .contactsection img { margin-top: 0; margin-left: -20px; }
+    .boutique-samsung-mobilite.staticPageSamsung .contactsection {background:#484f59 url("/imagesportal/localisation/inmac/images/responsive/SP_samsung/contact-pic.jpg") no-repeat left center; text-align:center; height:100px; }
+    .boutique-samsung-mobilite.staticPageSamsung .imgresize { width:90%; max-width: 366px; height: auto; }
+    .boutique-samsung-mobilite .contentcontainer select { display: none; border: 2px solid #00B45D; background: #00B45D url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/arrow-down-dd.png') no-repeat right 10px center; -moz-transition: all .2s ease; -ms-transition: all .2s ease; -o-transition: all .2s ease; transition: all .2s ease; color: #fff; font-size: 1.2em; width:90%; text-align-last:center; } 
+    .boutique-samsung-mobilite .contentcontainer select option {padding: 5px; font-size: 1em; background:#fff; color: #000; }
+    .boutique-samsung-mobilite .section2 { margin-bottom:0px; }
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .boutique-samsung-mobilite .imgresize {padding:10px 0;}
+    body.tabMobDevice .boutique-samsung-mobilite .boutique-samsung-mobilite-bottom-content.fixedPosition #staticInformation > div {top: 94px;}
+    /*************************** END TABLET DEVICE ***************************/
+    
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .boutique-samsung-mobilite .btn {display:block; width: 90%; margin: 35px auto; font-size: 1em !important; padding: 5px 7px;}
+    body.mobileDevice .boutique-samsung-mobilite .contentcontainer .section1, body.mobileDevice .boutique-samsung-mobilite .contentcontainer .section2, body.mobileDevice .boutique-samsung-mobilite .contentcontainer .section3 {padding: 15px 15px;}
+    body.mobileDevice .boutique-samsung-mobilite .arrow-down {left: 43%;}
+    body.mobileDevice .boutique-samsung-mobilite .boutique-samsung-mobilite-bottom-content.fixedPosition #staticInformation > div {top: 62px;}
+    body.mobileDevice .boutique-samsung-mobilite .contentcontainer nav {text-align: center;}
+    /*************************** END MOBILE DEVICE ***************************/
+    
+    /***************************  START BOTH TABLET & MOBILE DEVICES ***************************/
+    body.tabMobDevice .boutique-samsung-mobilite .section3 h2, body.mobileDevice .boutique-samsung-mobilite .section3 h2 {padding-top: 20px;}
+    /*************************** END BOTH TABLET & MOBILE DEVICES ***************************/
+
+/*************************** END boutique-samsung-mobilite / cmcpage15478 Page ***************************/
+
+
+/*************************** START boutique-samsung-experiences / cmcpage15484 Page ***************************/
+
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .nav-pills li a {font-size: 15px; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; border: 1px solid #e0e0e0; border-radius: 0; font-weight: bold; margin-bottom: 7px; margin-right: 5px; padding: 15px 20px; background: #fff; color: #333;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .nav-pills li.active a {border: 1px solid #0062a1; background-color: transparent; color: #000;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .nav-pills li:last-child a {margin-right: 0px;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .tab-content {padding: 20px; border: 1px solid #0062a1; display: inline-block;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .tabsrow {margin: 30px 0;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsungTabS3 .cta-container {margin-top: -60px;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsungTabA6 .cta-container {margin-top: -20px;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea {background-color: #e3e3e3; width: 100%; height: auto; margin-bottom: 30px;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footer-text {line-height: 18px; color: #5e5e5e;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footer-title {border-bottom: 1px solid #5e5e5e; padding-bottom: 10px; margin: 20px 0; text-transform: uppercase; font-size: 16px;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footer-title span {font-size: 34px;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footdiv div:first-child {float: left; width: 19%;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footdiv div:nth-child(2) {float: left; width: 50%;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footdiv div:last-child {float: right; width: 30%;}
+    .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footdiv {padding: 0;}
+    .boutique-samsung-experiences.staticPageSamsung .sectionSamsung.graybox {padding: 25px;}
+    .boutique-samsung-experiences.staticPageSamsung .sectionSamsung.sectionSamsungTabA6 {padding: 50px 0;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer img.imgresize {width: 90%;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .nav-pills li a {font-size: 14px; margin-right: 3px; padding: 10px 8px;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsungTabS3 .cta-container {margin-top: -140px;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsungTabA6 .cta-container {margin-top: -80px;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .tab-content {padding: 0px 10px;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea {margin: 0px;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .text-right img {width: 97%; height: 131px;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footer-title {padding-bottom: 0px; margin: 20px 0 0;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .sectionSamsung.sectionSamsungTabS3.graybox {padding: 25px 25px 0;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .sectionSamsung.graybox .arrow-down-gray {top: 1px;}
+    body.tabMobDevice .boutique-samsung-experiences.staticPageSamsung .sectionSamsung.sectionSamsungTabA6 {padding: 50px 0 0;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .tabsrow .nav-pills li {float: none; clear: both;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .nav-pills li a {padding: 5px 8px; margin-bottom: 5px;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .tabsrow {margin: 10px 0 20px;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsungTabS3 .cta-container, body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsungTabA6 .cta-container {margin-top: -10px;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea {margin: 30px 0 0;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .footerarea .footdiv div:nth-child(2) {width: 100%;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsung div,
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsung div p,
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .contentcontainer .sectionSamsung div h4 {text-align: left !important; padding: 0 5px !important;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .sectionSamsung.sectionSamsungTabS3.graybox {padding: 25px;}
+    body.mobileDevice .boutique-samsung-experiences.staticPageSamsung .sectionSamsung.graybox .arrow-down-gray {top: 26px; left: 42%;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/*************************** END boutique-samsung-experiences / cmcpage15484 Page ***************************/
+
+
+/*************************** START samsung-dex / cmcpage17582 Page ***************************/
+
+    .samsung-dex.staticPageSamsung .section1 .cta-container {margin: 20px 0;}
+    .samsung-dex.staticPageSamsung .carousel-caption {text-shadow: none; background: rgba(0,0,0,0.7); padding: 10px 20px; width: 100%; left: 0; right: 0; bottom: 0;}
+    .samsung-dex.staticPageSamsung .carousel-inner p {text-align: center !important; margin: 5px 0 20px !important; font-size: 14px !important;}
+    .samsung-dex.staticPageSamsung .carousel-indicators {margin: -10px auto; width: 100%; left: 0;}
+    .samsung-dex.staticPageSamsung .section3 {margin-top: 10px;}
+    .samsung-dex.staticPageSamsung .section4, .samsung-dex.staticPageSamsung .section5, .samsung-dex.staticPageSamsung .section6 {margin-top: 30px;}
+    .samsung-dex.staticPageSamsung .section6 .cta-container {margin-bottom: 30px;}
+    .samsung-dex.staticPageSamsung .section4 h4, .samsung-dex.staticPageSamsung .section5 h4 {padding-bottom: 10px;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .samsung-dex.staticPageSamsung .logoimg {margin: 0 auto; display: block; padding: 20px 0 10px;}
+    body.tabMobDevice .samsung-dex.staticPageSamsung .section1 .cta-container {text-align: center;}
+    body.tabMobDevice .samsung-dex.staticPageSamsung .imgresize {width: 90%;}
+    body.tabMobDevice .samsung-dex.staticPageSamsung .section5 iframe {width: 95%;}
+    body.tabMobDevice .samsung-dex.staticPageSamsung .section6 .cta-container {margin-bottom: 0;}
+    body.tabMobDevice .samsung-dex.staticPageSamsung .section6 {margin-top: 10px;}
+    /*************************** END TABLET DEVICE ****************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .samsung-dex.staticPageSamsung .carousel-caption {position: relative;}
+    body.mobileDevice .samsung-dex.staticPageSamsung .carousel-caption h4 {font-size: 16px;}
+    body.mobileDevice .samsung-dex.staticPageSamsung .carousel-inner p {font-size: 12px !important; font-size: 12px !important;}
+    body.mobileDevice .samsung-dex.staticPageSamsung .carousel-control .icon-prev, body.mobileDevice .samsung-dex.staticPageSamsung .carousel-control .icon-next, body.mobileDevice .samsung-dex.staticPageSamsung .carousel-control .glyphicon-chevron-left, body.mobileDevice .samsung-dex.staticPageSamsung .carousel-control .glyphicon-chevron-right {top: 35%;}
+    body.mobileDevice .samsung-dex.staticPageSamsung h5 {text-align: center;}
+    body.mobileDevice .samsung-dex.staticPageSamsung .section4 div, body.mobileDevice .samsung-dex.staticPageSamsung .section5 div {text-align: center;}
+    body.mobileDevice .samsung-dex.staticPageSamsung .section5 ul li {list-style-position: inside;}
+    body.mobileDevice .samsung-dex.staticPageSamsung .section5 h4 {margin-top: 10px;}
+    body.mobileDevice .samsung-dex.staticPageSamsung .section5 ul {padding-left: 0; text-align: left; margin-left: 28%;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/*************************** END samsung-dex / cmcpage17582 Page ***************************/
+
+
+/*************************** START location-samsung-galaxy-book-pro / cmcpage17550 Page ***************************/
+
+    .location-samsung.staticPageSamsung .contentcontainer .headerarea {background:url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/header-bg.jpg') top center no-repeat; height: 192px;}
+    .location-samsung.staticPageSamsung .table {width: 50%; margin-top: 10px;margin: 10px auto;}
+    .location-samsung.staticPageSamsung .headerarea h3 {top: 55px; position: relative; padding-left: 20px; line-height: 28px;}
+    .location-samsung.staticPageSamsung .sectionHeading h3 {top: 35px; position: relative;}
+    .location-samsung.staticPageSamsung .sectionLoc1, .location-samsung.staticPageSamsung .sectionLoc2 {margin: 30px 0 20px;}
+    .location-samsung.staticPageSamsung .sectionLoc1Sub ul {margin-left: -26px; margin-top: 10px;}
+    .location-samsung.staticPageSamsung .sectionLocSub2 span {display: block; margin-top: 5px;}
+    .location-samsung.staticPageSamsung .contactsection {background: #484f59 url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/contact-pic.jpg') no-repeat left center;
+        text-align: center; height: 100px;}
+    .location-samsung.staticPageSamsung a.contact.btn {margin-top: 30px; color: #fff;}
+    .location-samsung.staticPageSamsung .btn-wrapp {margin-bottom: 30px;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .location-samsung.staticPageSamsung .logoimg {padding: 10px 0;}
+    body.tabMobDevice .location-samsung.staticPageSamsung .sectionHeading h3 {font-size: 22px; top: 27px;}
+    body.tabMobDevice .location-samsung.staticPageSamsung .headerarea h3 {top: 45px;}
+    body.tabMobDevice .location-samsung.staticPageSamsung p {text-align: center !important;}
+    body.tabMobDevice .location-samsung.staticPageSamsung .sectionLoc1Sub img {width: 90%;}
+    body.tabMobDevice .location-samsung.staticPageSamsung .sectionLoc1Sub {margin-bottom: 20px;}
+    body.tabMobDevice .location-samsung.staticPageSamsung .btn-wrapp, body.tabMobDevice .location-samsung.staticPageSamsung .small-text {text-align: center;}
+    body.tabMobDevice .location-samsung.staticPageSamsung .boutique-samsung-mobilite-bottom-content.fixedPosition #staticInformation > div {top: 60px;}
+    /*************************** END TABLET DEVICE ****************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .sectionHeading div {text-align: center;}
+    body.mobileDevice .location-samsung.staticPageSamsung .sectionHeading h3 {font-size: 18px; top: 0px; margin-bottom: 10px;}
+    body.mobileDevice .location-samsung.staticPageSamsung .logoimg {padding: 10px 0 0;}
+    body.mobileDevice .location-samsung.staticPageSamsung .headerarea h3 {top: 0px; font-size: 18px; line-height: 22px; text-align: center; padding: 20px;}
+    body.mobileDevice .location-samsung.staticPageSamsung .contentcontainer .headerarea {background:#dcf1f6; height: auto;}
+    body.mobileDevice .location-samsung.staticPageSamsung .sectionLoc1, body.mobileDevice .location-samsung.staticPageSamsung .sectionLoc2 {margin: 10px 0 20px;}
+    body.mobileDevice .location-samsung.staticPageSamsung a.contact.btn {margin-top: 37px;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/*************************** END location-samsung-galaxy-book-pro / cmcpage17550 Page ***************************/
+
+
+/*************************** START boutique-samsung-mobilite-knox / cmcpage15483 Page ***************************/
+
+    .boutique-samsung-knox.staticPageSamsung .graybox.headerarea {padding: 25px; margin: 20px -4px;}
+    .boutique-samsung-knox.staticPageSamsung .bloc-video {margin: 20px -4px;}
+    .boutique-samsung-knox.staticPageSamsung .bloc-video div {margin: 0 -4px;}
+    .boutique-samsung-knox.staticPageSamsung .contentwrapper {padding: 25px;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li.active a {border: 1px solid #0062a1; background-color: #fff; color: #0062a1;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li a {font-size: 15px; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; border: 1px solid #e0e0e0; border-radius: 0; font-weight: bold; margin-bottom: 7px; margin-right: 10px; padding: 15px 13px; background: #fff; text-transform: uppercase; color:#000;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li:last-child {margin-right: 1px;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li:last-child a {margin-right: 0px;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li {width: 33%; margin-right: 2px;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills {padding-right: 0;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content {border: 1px solid #0062a1; padding: 20px; background-color: #fff;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content .macaron {text-align: right;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content .macaron img {width: 90%;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content .product-info h3 {padding-top: 10px;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content #audit h3 {color:#20b4ff;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content #deploiment h3 {color:#13289f;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content #migration h3 {color:#ec1188;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content .product-info h3 span {color:#444; display: block; font-size: 0.8em;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .text-blue {display: block; color:#0082dd; font-weight: bold;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .product-info .row:nth-child(2) {margin-top: 20px;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .bloc-knox h2 {text-transform: uppercase;}
+    .boutique-samsung-knox.staticPageSamsung .contentcontainer .contentwrapper p.text-center {text-align: center !important;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .bloc-video iframe {width: 470px;}
+    body.tabMobDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li {margin-right: 0px;}
+    body.tabMobDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .product-info .tabmainImg img {width: 90%;}
+    /*************************** END TABLET DEVICE ****************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .bloc-video iframe {width: 100%;}
+    body.mobileDevice .boutique-samsung-knox.staticPageSamsung .contentwrapper {padding: 20px 5px;}
+    body.mobileDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li {width: 32%;}
+    body.mobileDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .nav-pills li a {font-size: 13px; padding: 15px 5px; margin-right: 3px;}
+    body.mobileDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .tab-content h3 {font-size: 20px; text-align: center;}
+    body.mobileDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .product-info .tabmainImg img {width: auto;}
+    body.mobileDevice .boutique-samsung-knox.staticPageSamsung .contentcontainer .product-info .tabmainImg {text-align: center;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/*************************** END boutique-samsung-mobilite-knox / cmcpage15483 Page ***************************/
+
+
+/************************ START boutique-samsung-solutions-garanties / cmcpage17554 Page **********************/
+
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .p-big {font-size: 20px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .colorcell {padding-left: 0;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .colordesc p span {display: block;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box .colorbox-1 {border: 2px solid #953735;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box .colorbox-2 {border: 2px solid #366092;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box .colorbox-3 {border: 2px solid #77933c;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box .colorbox-4 {border: 2px solid #604a7b;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box .colorbox {-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; margin: 15px 0; display: flex;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .colorbox-1 h2 {background: #953735;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .colorbox-2 h2 {background: #366092;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .colorbox-3 h2 {background: #77933c;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .colorbox-4 h2 {background: #604a7b;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-1 h2 {color: #fff; font-size: 28px; height: 100px; margin: 0; padding: 35px 0 0 0; width: 56px; text-align: center;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-1 {margin: 20px 0 30px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box p, .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box ul li {font-size: 16px;}
+
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .leadlogo {margin-top: 15px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-2, .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-3 {margin-bottom: 20px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .ctntwithImg {display: inline-block;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .serviceImg {float: right; margin-right: 15%;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .contactImg {float: left; margin-right: 5%; margin-top: 10px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-4 {margin: 30px 0; padding: 25px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-4 ul {margin-left: -20px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-4 .contactMain {background: #fff; border: 1px solid #ccc; padding: 0 10px 10px; margin-top: 20px;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer .tableImg, .boutique-samsung-garanties.staticPageSamsung .contentcontainer .logoImg {text-align: right;}
+    .boutique-samsung-garanties.staticPageSamsung .contentcontainer p.ctntwithImg {margin-top: 28px !important;}
+
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung #fr_wrapper h2.box {text-align: left;}
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung p.p-big {text-align: center !important;}
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .tableImg img, body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .logo, body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .logoImg {width: 90%;}
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box p, body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box ul li {font-size: 14px !important;}
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-4 {margin:0; padding: 15px;}
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .contactImg {margin-right: 3%; max-width: 70px;}
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-4 .contactMain {padding: 0 10px 0px;}
+    body.tabMobDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .colordesc p span {margin-top: 10px;}
+    /*************************** END TABLET DEVICE ****************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung #fr_wrapper h2.box {font-size: 20px;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .leadlogo {width: 100%; margin-top: 20px;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung p.p-big {margin:0 !important;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .tableImg img, body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .logoImg {width: auto;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .tableImg {text-align: center;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung #fr_wrapper .contentcontainer .box p.ctntwithImg {text-align: left !important; font-size: 13px !important; margin-top: 7px !important;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung #fr_wrapper .contentcontainer .box ul {margin-left: -25px;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box p, body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box ul li {font-size: 13px !important; text-align: left !important;  margin: 0px !important;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box .logoImgmain {text-align: center;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-4 h2 {padding-bottom: 10px;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box .colordesc p {margin: 10px 0;}
+    body.mobileDevice .boutique-samsung-garanties.staticPageSamsung .contentcontainer .box-1 h2 {height: 90px;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END boutique-samsung-solutions-garanties / cmcpage17554 Page **********************/
+
+
+/************************ START samsung-parc-pret / cmcpage17584 Page **********************/
+    .samsung-parc-pret.staticPageSamsung .fullbluewrapper {color: #fff; background-color: #00a9e0; padding: 20px;}
+    .samsung-parc-pret.staticPageSamsung .fullbluewrapper a {color:#ffed53; text-decoration: underline;}
+    .samsung-parc-pret.staticPageSamsung .fullbluewrapper h3, .samsung-parc-pret.staticPageSamsung .fullbluewrapper p {padding-right: 20px;}
+    .samsung-parc-pret.staticPageSamsung .fullbluewrapper img {width: 100%;}
+    .samsung-parc-pret.staticPageSamsung .fullbluewrapper p.small-text {font-size: 0.9em !important; margin: 24px 0 0 !important;}
+    .samsung-parc-pret.staticPageSamsung .contentcontainer .leadlogo {margin-top: 30px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper .heading {margin-bottom: 30px; border-bottom: 1px solid #e8e8e8; padding-bottom: 10px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper h3 {margin: 10px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper .arrow-down-wht {top: 30px !important;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper .graybox {margin-top: 30px; padding: 25px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper .graybox h2.title {padding-top: 30px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper .arrow-down-gray {top: 0px !important;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper {margin: 35px 0;}
+    .samsung-parc-pret.staticPageSamsung .contentcontainer .fullmainwrapper h2.box {padding: 7px 0;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper .box3 {margin-top: 30px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper.fullmainwrapper2 .box3 {margin-top: 30px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper.fullmainwrapper2 .box2 {margin-top: 30px;}
+    .samsung-parc-pret.staticPageSamsung .contactSpcl {background-color: #00a9e0; padding: 20px; margin-bottom: 25px;}
+    .samsung-parc-pret.staticPageSamsung .contactSpcl h3 {color: #fff;}
+    .samsung-parc-pret.staticPageSamsung .contactsection {background: #484f59 url("/imagesportal/localisation/inmac/images/responsive/SP_samsung/contact-pic.jpg") no-repeat left center;
+    text-align: center; height: 100px;}
+    .samsung-parc-pret.staticPageSamsung .contactsection {text-align: center;}
+    .samsung-parc-pret.staticPageSamsung a.contact.btn {margin-top: 30px; color: #fff;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper .container-fluid {margin: 0 -8px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper.fullmainwrapper2 .graybox h2.title {padding-top: 30px;}
+    .samsung-parc-pret.staticPageSamsung .fullmainwrapper.fullmainwrapper2 {margin: 25px 0;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .samsung-parc-pret.staticPageSamsung .boutique-samsung-mobilite-bottom-content.fixedPosition #staticInformation > div {top: 94px;}
+    body.tabMobDevice .samsung-parc-pret.staticPageSamsung .fullmainwrapper .box h2.title {text-align: left !important;}
+    body.tabMobDevice .samsung-parc-pret.staticPageSamsung .fullmainwrapper h3 {margin: 10px 0;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .contentcontainer .leadlogo {margin-top: 37px; width: 90%;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung #fr_wrapper h2 {font-size: 18px;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .fullbluewrapper h3 {padding-right: 0px; text-align: center; font-size: 18px;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .logo {width: 90%;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .fullmainwrapper {margin: 20px 0;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .contentcontainer .fullmainwrapper h2.box {padding: 0px 0;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .box img {width: 90%;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .contactSpcl h3 {font-size: 18px;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .contactSpcl {padding: 10px; margin-bottom: 20px;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .box h3 {font-size: 16px;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .cta-container .btn {font-size: 0.8em;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .fullmainwrapper .graybox h2.title {padding-top: 10px;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .fullmainwrapper.fullmainwrapper2 .graybox h2.title {padding-top: 0px;}
+    body.mobileDevice .samsung-parc-pret.staticPageSamsung .fullmainwrapper .arrow-down-wht, body.mobileDevice .samsung-parc-pret.staticPageSamsung .fullmainwrapper .arrow-down-gray {left: 42%;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END samsung-parc-pret / cmcpage17584 Page **********************/
+
+
+/************************ START configurateur-informatique / cmcpage5351 Page **********************/
+
+    /************** START BREADCRUMB **************/
+    .staticPage.staticPageConfig .breadcrumbContainer, .PageConfig .breadcrumbContainer {padding: 8px 15px; margin-bottom: 25px; background-color: #2d2d2d;}
+    .staticPage.staticPageConfig .breadcrumb .homeLink a, .PageConfig .breadcrumb .homeLink a {background: url("/imagesportal/localisation/inmac/images/responsive/common/bullet-breadcrumb.png") no-repeat 0px 1px; padding-left: 25px;}
+    .staticPage.staticPageConfig .breadcrumb a, .PageConfig .breadcrumb a {color: #fff; padding-right: 10px; padding-left: 10px; text-decoration: none;}
+    .staticPage.staticPageConfig .breadcrumb > li + li::before, .PageConfig .breadcrumb > li + li::before {content: "/\00a0"; padding: 0 5px; color: #ccc;}
+    .staticPage.staticPageConfig .breadcrumb > li.active span, .PageConfig .breadcrumb > li.active span {color: #878787; padding-left: 10px; padding-right: 10px;}
+    .staticPage.staticPageConfig .breadcrumb, .PageConfig .breadcrumb {padding: 0; margin-bottom: 0; list-style: none; background-color: transparent; border-radius: 0;}
+    /************** END BREADCRUMB **************/
+
+    .staticPage.staticPageConfig #LandingConfigurateur {margin: 40px auto;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurHeader h1 {background: url("/imagesportal/localisation/inmac/images/responsive/common/bullet-mainTitle.png") no-repeat 0px 0px; margin-bottom: 30px; font-weight: normal; padding: 2px 10px 20px 50px; margin-top: 10px; color: #333; display: inline-block; position: relative;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurHeader h1:before {content: ""; position: absolute; width: 40%; height: 5px; bottom: 0; border-bottom: 5px solid #F03434;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurHeader h4 {margin-bottom: 20px;}    
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .information_txt {background: #fff; text-align: center; padding: 0 0px; top: -10px; position: relative; width: 480px; margin: 0 auto;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .information_txt h4 {color: #00be76;}
+    .staticPage.staticPageConfig #deselect_button {color:#FFFFFF; background:#2b7cb3 url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/reset-icon.png') no-repeat 10px 6px; cursor:pointer; padding: 15px 20px 15px 50px; text-transform: uppercase;}
+    .staticPage.staticPageConfig #deselect_button:hover {color:#FFFFFF; background:#308fcf url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/reset-icon.png') no-repeat 10px 6px; cursor:pointer; text-decoration: none;}
+    .staticPage.staticPageConfig #LandingConfigurateur .deselect_button-div {background: #fff; padding: 0 10px; top: 30px; position: relative; float: right; display: block; right: 20px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .deselect-main {height: 40px;}
+
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons {background:#fff url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/config-icon-tags.png') no-repeat; height: 50px; -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3); -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3); box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.3); margin: 7px 10px; padding: 5px 10px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation {border: 1px solid #00be76;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .ul_1 {background-position:10px 3px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .ul_2 {background-position:10px -129px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .ul_3 {background-position:10px -195px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .ul_4 {background-position:10px -62px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .ul_5 {background-position:10px -261px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li:first-child {margin-left:60px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li {list-style: none; float: left; display: block; margin: 5px 0 0 5px; margin-left: 15px; border: 2px solid #848484; padding: 5px 10px; transition: all 0.3s ease 0s; font-size: 12px; text-transform: uppercase; text-align: center; border-radius: 2px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li:hover,
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li.selected {background:#2b7cb1; border:2px solid #2b7cb1; cursor:pointer; color:#FFFFFF;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li .icons {background:url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/config-icon-standard.png'); background-position:-13px -105px; height: 25px; margin: -12px 0 0 3px; position: absolute; width: 25px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li .icons:hover,
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li:hover .icons,
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li.selected .icons {background:url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/config-icon-standard.png'); background-position:-12px -150px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li.selected .icons {background-position:-12px -150px !important;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li.selected {border: 2px solid #2b7cb1 !important;}
+    .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .information_txt .small_icons {background:url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/config-icon-standard.png'); display: block; height: 20px; width:18px; float:left; margin-right:5px;}   
+
+    .staticPage.staticPageConfig .ConfigurateurProdcells {margin-bottom: 30px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements {margin: 1%; width: 23%; -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2); -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2); box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.2);}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .head_img {height: auto; max-height: 100%; z-index: -1; max-width: 100%; width: auto; overflow: hidden; position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .head_img.fullbgimg {width: 100%; height: 100%;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .icons {background:url('/imagesportal/localisation/inmac/images/responsive/SP_samsung/config-icon-prodcell.png'); display: block; height: 30px; left: 7px; position: absolute; top: 8px; width: 30px; z-index: 1;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .iconmain {width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.6);}
+    .staticPage.staticPageConfig #LandingConfigurateur .ConfigurateurNavigation {position: relative; background: #fff; border: 1px solid #00be76;}
+    .staticPage.staticPageConfig #LandingConfigurateur .ConfigurateurNavigation:after,
+    .staticPage.staticPageConfig #LandingConfigurateur .ConfigurateurNavigation:before {top: 100%; left: 9%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none;}
+    .staticPage.staticPageConfig #LandingConfigurateur .ConfigurateurNavigation:after {border-color: rgba(255, 255, 255, 0); border-top-color: #fff; border-width: 10px; margin-left: -20px;}
+    .staticPage.staticPageConfig #LandingConfigurateur .ConfigurateurNavigation:before {border-color: rgba(0, 190, 118, 0); border-top-color: #00be76; border-width: 11px; margin-left: -21px;}
+
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .workstation {background-position:0px 0px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .printer {background-position:0px -58px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ink_toner {background-position:0px -58px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .battery {background-position:0px -233px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .memory {background-position:0px -117px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .cabling {background-position:0px -117px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .lamp {background-position:-1px -176px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .projector {background-position:-1px -176px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .hard_drive {background-position:0px -117px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .software {background-position:0px 0px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .spare_parts {background-position:0px 0px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ups {background-position:0px 0px;}
+
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ListConfigContent .view_button {background: #00be76; color: #fff; display: block; padding: 8px 10px; text-align: center; font-size: 14px; margin: 0 auto; text-decoration: none; transition: all 0.3s ease 0s; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; text-transform: uppercase; width: 50%;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements:hover .ListConfigContent .view_button {color: #FFF; background: #26cb7c; text-decoration:none;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ListConfigContent .view_button span {top: -2px; position: relative;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ListConfigContent .view_button:before {font-family: fontawesome; content: "\f06e"; padding: 7px 7px 7px 0; font-size: 20px; font-weight: 100;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ListConfigContent {padding:10px 5px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ListConfigContent h2 {font-size:15px; height:35px; color:#424242; margin-top:0px; text-align:center; overflow: hidden; text-overflow: ellipsis; /*white-space: nowrap;*/}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements a {text-decoration:none;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements a:hover {text-decoration:none;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements:hover .ListConfigContent h2 {color:#1B6FB7;transition: all 0.3s ease 0s;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ListConfigContent .textConfig {height: 130px; padding: 5px 0; text-align: left; font-size: 13px; line-height: 18px; overflow: hidden; color: #8a8888; margin-bottom: 20px;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .imgblock {background: #eaeaea; text-align: center; padding: 5px; height: 120px; position: relative; margin: 5px 1px; z-index: 1;}  
+    .staticPage.staticPageConfig .nodisplay{display:none;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .tag {top: 5px; position: absolute; right: 5px; background: #2b7cb3; color: #fff; text-transform: uppercase; font-size: 11px; padding: 5px 10px; border-radius: 2px; transition: all 0.3s ease 0s;}
+    .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements:hover .tag {background: #308fcf;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .information_txt h4 {font-size: 1em;}
+    body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .information_txt {width: 370px;}
+    body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurHeader h1 {font-size: 24px;}
+    body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurHeader h4 {font-size: 16px; line-height: 20px;}
+    body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li {font-size: 11px;  margin-left: 10px;}
+    body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .ConfigurateurNavigation:after, body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .ConfigurateurNavigation:before {left: 14%;}
+    body.tabMobDevice .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements .ListConfigContent .view_button {width: 60%;}
+    body.tabMobDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li:first-child {margin-left: 60px;}
+    body.tabMobDevice .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements {width: 31.3%;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .staticPage.staticPageConfig .breadcrumb, body.mobileDevice .PageConfig .breadcrumb {text-align: center;}
+    body.mobileDevice .staticPage.staticPageConfig #LandingConfigurateur {margin: 0px auto 40px;}
+    body.mobileDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation {margin-top: 20px;}
+    body.mobileDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .information_txt h4 {font-size: 1.2em;}
+    body.mobileDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons {padding: 5px 0px; margin: 7px 5px;}
+    body.mobileDevice .staticPage.staticPageConfig #LandingConfigurateur .HeadPartLanding .ConfigurateurNavigation .top_icons li {padding: 5px 7px;}
+    body.mobileDevice .staticPage.staticPageConfig .ConfigurateurProdcells .list_elements {width: 48%;}
+    body.mobileDevice .staticPage.staticPageConfig .ConfigurateurProdcells .imgblock {height: 96px;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END configurateur-informatique / cmcpage5351 Page **********************/
+
+/******************************************************************** END SAMGSUNG Pages ******************************************************************/
+
+
+
+
+/******************************************************************** START MICROSOFT Pages ******************************************************************/
+
+
+    /*************************** START SCROLL ELEMENTS ***************************/
+    .staticMicrosoft .microsoft-bottom-content.fixedPositionBottom #staticInformation > div {animation-duration: 0.2s; animation-fill-mode: both; animation-name: fadeInDown; background:rgba(216,59,1,0.9) url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/contactpic-bg.png") repeat-x left center; position: fixed; bottom:0px; left:0; z-index:1000; width:100%;}
+    .staticMicrosoft .microsoft-bottom-content.fixedPosition #staticInformation > div {animation-duration: 0.2s; animation-fill-mode: both; animation-name: fadeInDown; background:rgba(216,59,1,0.9) url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/contactpic-bg.png") repeat-x left center; position: fixed; top:74px; left:0; z-index:500; width:100%;}
+    .staticMicrosoft .microsoft-bottom-content.fixedPosition #staticInformation a.contact.btn,
+    .staticMicrosoft .microsoft-bottom-content.fixedPositionBottom #staticInformation a.contact.btn {margin: 10px auto;}
+    .staticMicrosoft .microsoft-bottom-content #staticInformation {position: static;}
+    .staticMicrosoft .microsoft-bottom-content.contactsection {background: #d83b01 url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/contactpic-bg.png") repeat-x left center; text-align: center; height: 100px; margin: 30px auto 10px;}
+    .staticMicrosoft .contactcontainer {padding-left: 0; padding-right: 0;}
+    .staticMicrosoft .microsoft-bottom-content a.contact.btn {margin-top: 25px; border: 1px solid #9e2b00; background: #fff; color: #000; font-size: 1.2em; padding: 14px 25px 12px;}
+    .staticMicrosoft .microsoft-bottom-content.fixedPositionBottom a.contact.btn, .staticMicrosoft .microsoft-bottom-content.fixedPosition a.contact.btn {padding: 12px 25px 12px;}
+    .staticMicrosoft .microsoft-bottom-content a.contact.btn:hover {background: #eedad2;}
+    .staticMicrosoft .microsoft-stickymenu-content.fixedPositionBottom #staticInformationMiddle ul {animation-duration: 0.2s; animation-fill-mode: both; animation-name: fadeInDown; left center; bottom: 70px; position: fixed; z-index:1000; width:984px; padding: 10px 0 3px; background: #fff;}
+    .staticMicrosoft .microsoft-stickymenu-content.fixedPosition #staticInformationMiddle ul {animation-duration: 0.2s; animation-fill-mode: both; position: fixed; top:0px; z-index:500; width:984px; padding: 10px 0 3px; background: #fff; border-bottom: 1px solid #0062a1;}
+    .staticMicrosoft .microsoft-stickymenu-content #staticInformationMiddle {position: static;}
+    .staticMicrosoft .microsoft-stickymenu-content .navbar-collapse {padding-left: 0; padding-right: 0;}
+
+    body.tabMobDevice .staticMicrosoft .microsoft-bottom-content.fixedPosition #staticInformation > div {top: 94px;}
+    body.mobileDevice .staticMicrosoft .microsoft-bottom-content.fixedPosition #staticInformation > div {top: 62px;}
+    /*************************** END SCROLL ELEMENTS ***************************/
+
+
+    /*********** START PAGE cmcpage17456 - [microsoft-office-365] ***********/
+    #office365 #top { margin-bottom: 0; }
+    #office365 .contentcontainer { padding-top: 25px; padding-bottom: 25px; }
+    #office365 .contentcontainer h2 { color: #d83b01; text-transform: uppercase; }
+
+    .mobileDevice #office365 h2 { font-size: 24px; }
+    .mobileDevice #office365 h3 { font-size: 20px; }
+    
+    /* START 01. Logo Section */
+
+    .mobileDevice #office365 #logoContentContainer { display: none; }
+
+    /* END 01. Logo Section */
+
+
+    /* START 01. Microsoft-Menu Section */
+        #office365 #menucontainer .navbar { background: #666666; border: none; margin-bottom: 0; border-radius: 0; }
+        #office365 #menucontainer .navbar-default .navbar-collapse { border-color: #666666; }
+        #office365 #menucontainer .navbar-brand > img { display: none; }
+        #office365 #menucontainer .navbar-default .navbar-nav > li:first-child { border-left: 1px solid #fff; }
+        #office365 #menucontainer .navbar-default .navbar-nav > li { border-right: 1px solid #fff; }
+        #office365 #menucontainer .navbar-default .navbar-nav > li > a { color: #fff !important; border: none; font-size: 16px; border-radius: 0; margin-bottom: 0; }
+        #office365 #menucontainer .navbar-default .navbar-nav li:hover > a, #office365 #menucontainer .navbar-default .navbar-nav li:focus > a, #office365 #menucontainer .navbar-default .navbar-nav li:active > a, #office365 #menucontainer .navbar-default .navbar-nav > .open > a { background-color: #888; }
+        #office365 #menucontainer .navbar-nav > li > .dropdown-menu { background: #666; width: 100%; border-top: 1px solid #fff; padding-top: 0; border-right: none; border-left: none; border-bottom: none; padding-bottom: 0; border-radius: 0; }
+        #office365 #menucontainer .navbar-nav > li.dropdown:hover .dropdown-menu, #office365 #menucontainer .navbar-nav > li.dropdown:focus .dropdown-menu, #office365 #menucontainer .navbar-nav > li.dropdown:active .dropdown-menu { display: block; }
+        #office365 #menucontainer .dropdown-menu > li > a { color: #fff; padding-top: 10px; padding-bottom: 10px; }
+        #office365 #menucontainer .dropdown-menu .divider { margin: 0; }
+        #office365 .navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
+        #office365 .navbar-default .navbar-toggle { border-color: transparent; }
+        #office365 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: transparent; }
+
+        .mobileDevice #office365 #menucontainer .navbar-brand > img { max-height: 100%; display: block; }
+        .mobileDevice #office365 #menucontainer .navbar-nav { margin: 0; }
+        .mobileDevice #office365 #menucontainer .navbar-default .navbar-nav > li { border-right: none; border-bottom: 1px solid #777; margin-bottom: 0; }
+        .mobileDevice #office365 #menucontainer .navbar-default .navbar-nav > li:first-child { border-left: none; }
+        .mobileDevice #office365 #menucontainer .navbar-default .navbar-nav > li:last-child { border-bottom: none; }
+        .mobileDevice #office365 #menucontainer .navbar-default .navbar-nav > li > a { text-align: left; text-indent: 10px; font-size: 14px; }
+        .mobileDevice #office365 #menucontainer .navbar-nav > li.dropdown:hover .dropdown-menu, .mobileDevice #office365 #menucontainer .navbar-nav > li.dropdown:focus .dropdown-menu, .mobileDevice #office365 #menucontainer .navbar-nav > li.dropdown:active .dropdown-menu { display: none; }
+        .mobileDevice #office365 #menucontainer .navbar-nav > li.dropdown.open > .dropdown-menu, .mobileDevice #office365 #menucontainer .navbar-nav > li.dropdown.open > .dropdown-menu, .mobileDevice #office365 #menucontainer .navbar-nav > li.dropdown.open > .dropdown-menu { display: block !important; }
+        .mobileDevice #office365 #menucontainer .navbar-nav > li > .dropdown-menu { border-color: #999; background: #595959; }
+        .mobileDevice #office365 #menucontainer .dropdown-menu > li > a { text-indent: 20px; border-color: #777; font-size: 12px; }
+        .mobileDevice #office365 #menucontainer .dropdown-menu .divider { background-color: #777; }
+            
+    /* END 01. Microsoft-Menu Section */
+
+
+    /* START 03. Slider Section */
+        .mobileDevice #office365 #sliderContentContainer { padding-bottom: 10px; padding-top: 15px; }
+
+        #office365 #sliderContentContainer h4 { color: #d83b01; font-weight: normal; margin-bottom: 20px; }
+        #office365 .bx-wrapper .bx-controls-direction a.bx-next, #office365 .bx-wrapper .bx-controls-direction a.bx-prev { transform: rotate(-135deg); width: 20px; height: 20px; background: transparent; top: calc(50% - 10px); }
+        .mobileDevice #office365 .bx-wrapper .bx-controls-direction a.bx-next, .mobileDevice #office365 .bx-wrapper .bx-controls-direction a.bx-prev { width: 10px; height: 10px; top: calc(50% - 5px);  }
+        #office365 .bx-wrapper .bx-controls-direction a.bx-next { border-bottom: 2px solid #95989a; border-left: 2px solid #95989a; right: 20px; }
+        #office365 .bx-wrapper .bx-controls-direction a.bx-prev { border-top: 2px solid #95989a; border-right: 2px solid #95989a; left: 20px; }
+
+
+    /* END 03. Slider Section */
+
+
+    /* START 04. Features Section */
+        #office365 #featuresContentContainer { background: #d83b01; margin-bottom: 100px; margin-top: 50px; height: 425px; }
+        #office365 #featuresContentContainer .container { position: relative; }
+        #office365 #featuresContentContainer .featuresContent { display: table; width: 100%; margin-top: -60px; position: absolute; }
+        #office365 #featuresContentContainer .featuresContent > div { height: 400px; display: table-cell; vertical-align: middle; float: none; }
+        #office365 #featuresContentContainer h3 { color: #fff; font-weight: normal; }
+        #office365 #featuresContentContainer iframe { float: none; margin: 0 auto; display: block; position: absolute; top: calc(50% - 60px); left: calc(50% - 130px); }
+        #office365 #featuresContentContainer .menu { float: none; margin: auto; position: relative; top: 0; bottom: 0; left: 0; right: 0; width: 500px; height: 500px; text-align: center; box-sizing: border-box; font-size: 26px; border-radius: 244px; }
+        #office365 #featuresContentContainer .menu-item { position: absolute; color: #ffffff; }
+        #office365 #featuresContentContainer .menu-item.item1 { top: 10%; left: -40px; }
+        #office365 #featuresContentContainer .menu-item.item2 { top: -10px; left: calc(50% - 100px); }
+        #office365 #featuresContentContainer .menu-item.item3 { right: -40px; top: 10%; }
+        #office365 #featuresContentContainer .menu-item.item4 { right: -90px; top: 50%; }
+        #office365 #featuresContentContainer .menu-item.item5 { bottom: -30px; right: 40px; }
+        #office365 #featuresContentContainer .menu-item.item6 { bottom: -30px; left: 40px; }
+        #office365 #featuresContentContainer .menu-item.item7 { top: 50%; left: -90px; }
+        #office365 #featuresContentContainer .menu-item .img-circle { background: #eeeeee; width: 80px; height: 80px; text-align: center; line-height: 80px; display: block; margin: 0 auto; }
+        #office365 #featuresContentContainer .menu-item.item1 .img-circle { background-color: #de6921; }
+        #office365 #featuresContentContainer .menu-item.item2 .img-circle { background-color: #de6921; }
+        #office365 #featuresContentContainer .menu-item.item3 .img-circle { background-color: #7ba6de; }
+        #office365 #featuresContentContainer .menu-item.item4 .img-circle { background-color: #424952; }
+        #office365 #featuresContentContainer .menu-item.item5 .img-circle { background-color: #8ccb7b; }
+        #office365 #featuresContentContainer .menu-item.item6 .img-circle { background-color: #ffb239; }
+        #office365 #featuresContentContainer .menu-item.item7 .img-circle { background-color: #10b2c6; }
+        #office365 #featuresContentContainer .menu-item p { font-size: 15px; margin-top: 10px; width: 200px; line-height: 20px; }
+        #office365 #featuresContentContainer .menu-item.item5 p, #office365 #featuresContentContainer .menu-item.item6 p { color: #000; }
+
+        .mobileDevice #office365 #featuresContentContainer { height: auto; margin-bottom: 15px; margin-top: 0; }
+        .mobileDevice #office365 #featuresContentContainer .featuresContent { display: block; position: relative; margin: 0; }
+        .mobileDevice #office365 #featuresContentContainer .featuresContent > div { height: auto; display: block; float: left; }
+        .mobileDevice #office365 #featuresContentContainer .rbgimg { max-width: 200px; margin: 0 auto; display: block;}
+        .mobileDevice #office365 #featuresContentContainer h3 { text-align: center; }
+        .mobileDevice #office365 #featuresContentContainer h3 br { display: none; }
+        .mobileDevice #office365 #featuresContentContainer iframe { position: relative; left: 0; top: 0; margin: 20px auto; }
+        .mobileDevice #office365 #featuresContentContainer .menu { width: 100%; height: auto; float: left; border: 1px solid #ff5100; border-radius: 0; }
+        .mobileDevice #office365 #featuresContentContainer .menu-item { display: table; position: relative; color: #ffffff; top: 0; left: 0; border-bottom: 1px solid #ff5100; padding: 5px 0; float: left; width: 50%; }
+        .mobileDevice #office365 #featuresContentContainer .menu-item:nth-child(1), .mobileDevice #office365 #featuresContentContainer .menu-item:nth-child(2) { border-top: none; }
+        .mobileDevice #office365 #featuresContentContainer .menu-item:last-child {     border-bottom: none; }
+        .mobileDevice #office365 #featuresContentContainer .menu-item img { margin-right: 10px; max-height: 40px; display: table-cell; vertical-align: middle; }
+        .mobileDevice #office365 #featuresContentContainer .menu-item p { height: 45px; line-height: 14px; overflow: hidden; color: #fff !important; font-size: 11px; vertical-align: middle; display: table-cell; width: 75%; text-align: left;}
+
+    /* END 04. Features Section */
+
+
+    /* START 05. Tab Section */
+        #office365 #tabContentContainer .cat-product-form-bottom-content { margin-top: 25px; }
+        #office365 #tabContentContainer .nav-tabs > li > a { background: transparent; border: none; }
+        #office365 #tabContentContainer .nav-tabs > li > a > img { max-width: 100%; margin: 0 auto; }
+        #office365 #tabContentContainer .nav-tabs > li > a  p { color: #333; font-size: 16px; margin-top: 10px; }
+        #office365 #tabContentContainer .nav-tabs {  border-bottom: none; }
+        #office365 #tabContentContainer .tab-pane { border: 1px solid #e0e0e0; }
+        #office365 #tabContentContainer .articleitem { padding: 20px; margin: 0; }
+        #office365 #tabContentContainer .media.alignMiddle .media-body {vertical-align: middle;}
+        #office365 #tabContentContainer .media-body h3 { color: #2b7cb1; margin-bottom: 20px; font-weight: normal; margin-top: 10px; }
+        #office365 #tabContentContainer .media-object { float: left; margin-right: 30px; margin-bottom: 10px; }
+        #office365 #tabContentContainer .articleitem.graybg { background: #ebebeb; border-top: 1px solid #e0e0e0; }
+        #office365 #tabContentContainer .graybg iframe, #office365 #tabContentContainer .graybg img { border: 1px solid #e0e0e0; }
+
+        .mobileDevice #office365 #tabContentContainer .nav-tabs { margin-bottom: 10px; }
+        .mobileDevice #office365 #tabContentContainer .nav-tabs > li > a { background: #eee;  border: 1px solid #ddd; padding: 5px 10px; height: 60px; border-radius: 0; display: table; width: 100%; }
+        .mobileDevice #office365 #tabContentContainer .nav-tabs > li.active > a { background: #eee; border-color: #d4d4d4; }
+        .mobileDevice #office365 #tabContentContainer .nav-tabs > li > a > img { float: left; height: 45px; display: none; }
+        .mobileDevice #office365 #tabContentContainer .nav-tabs > li > a p { font-size: 14px; line-height: initial; margin:  0; display: table-cell; vertical-align: middle; color: #2b7cb1; font-weight: bold; }
+        .mobileDevice #office365 .media-left, .mobileDevice #office365 .media-right, .mobileDevice #office365 .media-body { display: contents; width: auto; float: left; }
+        .mobileDevice #office365 #tabContentContainer .graybg iframe, .mobileDevice #office365 #tabContentContainer .graybg img { float: left;  margin-right: 15px; }
+
+    /* END 05. Tab Section */
+
+
+    /* START 06. Prices Section */
+        #office365 #pricesContentContainer { padding-bottom: 0; }
+        #office365 #pricesContentContainer .pricesContent { margin-top: 25px; }
+        #office365 #pricesContentContainer .panel { border-color: transparent; border-radius: 0 20px 0 0; overflow: hidden; margin-bottom: 0; cursor: pointer;}
+        #office365 #pricesContentContainer .panel-heading { color: #fff; background-color: #969696; border-color: transparent; border-radius: 0; padding-top: 20px; padding-bottom: 20px; }
+        #office365 #pricesContentContainer .panel-title  { color: #fff; font-size: 30px; font-weight: normal; }
+        #office365 #pricesContentContainer .panel-body { background-color: #ebebeb;  margin-top: 5px; padding-top: 20px; padding-bottom: 25px; }
+        #office365 #pricesContentContainer .panel-body h2 { font-weight: normal; color: #000; }
+        #office365 #pricesContentContainer .panel-body small { font-size: 100%; }
+        #office365 #pricesContentContainer .panel-footer { border: 1px solid #e1e1e1; background: #fff; height: 150px; padding: 10px 0; position: relative; overflow: hidden; -webkit-transition: width 2s, height 1s; /* For Safari 3.1 to 6.0 */ transition: width 2s, height 1s;}
+        #office365 #pricesContentContainer .opened .panel-footer { height: 100% !important; }
+        #office365 #pricesContentContainer .opened .expander {max-height: 400px; overflow: auto; padding-bottom: 30px;}
+        #office365 #pricesContentContainer .panel-footer .expander img { padding-left: 10px; padding-right: 10px; margin: 0 auto; }
+        #office365 #pricesContentContainer .expandable { margin-top: 10px; padding-left: 10px; padding-right: 10px; }
+        #office365 #pricesContentContainer .expandable > p { border-top: 1px solid #ddd;  padding-top: 10px; }
+        #office365 #pricesContentContainer .btnWrapper { padding: 10px 20px; }
+        #office365 #pricesContentContainer .panel-footer .panelToggle { position: absolute; bottom: 0; left: 0; display: block; width: 100%; height: 40px; background: #fff; color: #777; font-size: 40px; line-height: 20px; font-weight: bold; }
+        #office365 #pricesContentContainer .panel-footer .panelToggle .fa-angle-up, #office365 #pricesContentContainer .opened .panel-footer .panelToggle .fa-angle-down{ display: none; }
+        #office365 #pricesContentContainer .opened .panel-footer .panelToggle .fa-angle-up{ display: block; }
+
+        .tabMobDevice #office365 #pricesContentContainer .opened .panel-footer { height: 100% !important; }
+        .tabMobDevice #office365 #pricesContentContainer .opened .expander {max-height: none; overflow: hidden;}
+
+        .mobileDevice #office365 #pricesContentContainer .panel-title { font-size: 20px; }
+        .mobileDevice #office365 #pricesContentContainer .panel { margin: 0 5px 20px; }
+        .mobileDevice #office365 #pricesContentContainer .panel-heading { padding-top: 10px; padding-bottom: 10px; }
+        .mobileDevice #office365 #pricesContentContainer .panel-body { padding-top: 15px; padding-bottom: 20px; }
+        .mobileDevice #office365 #pricesContentContainer .panel-footer{ height: 100px; padding: 5px 0;}
+        .mobileDevice #office365 #pricesContentContainer .panel-footer .expander img { max-height: 65px; margin: 0 auto; }
+        .mobileDevice #office365 #pricesContentContainer .panel-footer .panelToggle { font-size: 30px; height: 30px; }
+
+    /* END 06. Prices Section */
+
+
+    /* START 07. Offers Section */
+        #office365 #offersContentContainer .offersContent { margin-top: 25px; background: #ebebeb; padding: 20px; }
+        #office365 #offersContentContainer .offer { list-style: none; }
+        #office365 #offersContentContainer a { color: #333; font-size: 16px; display: block; text-decoration: none; }
+        #office365 #offersContentContainer a:hover { color: #3c86b7; }
+    /* END 07. Offers Section */
+
+
+    /* START 08. Expertise Section */
+        #office365 #expertiseContentContainer .expertiseContent { margin-top: 25px; }
+        #office365 #expertiseContentContainer .thumbnail { border: none; border-radius: 0; }
+        #office365 #expertiseContentContainer .thumbnail .img-responsive { margin: 0 auto; } 
+        #office365 #expertiseContentContainer h4 { margin-top: 20px; overflow: hidden; height: 40px; }
+
+        .mobileDevice #office365 #expertiseContentContainer .thumbnail { border: 1px solid #ddd; float: left; text-align: left; padding: 10px; }
+        .mobileDevice #office365 #expertiseContentContainer h4 { margin-top: 0; }
+
+    /* END 08. Expertise Section */
+
+
+    /* START 09. Partner Section */
+        #office365 #partnerContentContainer { margin-bottom: 50px; }
+        #office365 #partnerContentContainer .partnerContent { margin-top: 25px; }
+        #office365 #partnerContentContainer a { display: block; }
+        #office365 #partnerContentContainer .partnerContent .img-responsive {margin: 0 auto;}
+    /* END 09. Partner Section */
+
+/*********** END PAGE cmcpage17456 - [microsoft-office-365] ***********/
+
+
+/************************ START microsoft-nos-videos / cmcpage17461 Page **********************/
+
+    .staticPage.staticMicrosoft .videocontainer {margin: 30px auto; padding: 0;}
+    .staticPage.staticMicrosoft .graybox {background-color: #efefef;}
+    .staticPage.staticMicrosoft .videocontainer .row {margin: 40px auto;}
+    .staticPage.staticMicrosoft .videocontainer .row1 {margin: 0px auto;}
+    .staticPage.staticMicrosoft .btnpos .btn-cta {display: inline-block; cursor: pointer; font-family: 'Roboto Condensed',Arial,sans-serif; text-transform: uppercase; -webkit-border-radius: 2px; border-radius: 2px; text-align: center; text-decoration: none; font-size: 1em; font-weight: 700; height: initial; padding: 0.6em 1em; color: #fff; border: 2px solid #00B45D; background-color: #00B45D;}
+    .staticPage.staticMicrosoft .btnpos .btn-cta:hover, .btnpos .btn-cta:focus {color: #fff; text-decoration: none; border: 2px solid #25BD74; background-color: #25BD74; -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0); box-shadow: inset 0 0px 0px rgba(0,0,0,0);}
+    .staticPage.staticMicrosoft .btnpos {position: absolute; bottom: 10px; right: 25px;}
+    .staticPage.staticMicrosoft .hovermenu {position: relative; display: block; width: 100%; height: 100%; overflow: hidden; max-height: 500px; max-width: 500px;}
+    .staticPage.staticMicrosoft .hovermenu:hover h2 {transform: translateY(10px); background: none;}
+    .staticPage.staticMicrosoft .hovermenu > img {opacity: 1; transform: scale(1.02); transform-origin: 100% 100%; transition: all 0.3s ease; width: 100%;}
+    .staticPage.staticMicrosoft .hovermenu .items {position: absolute; bottom: 50px; right: 30px; border-right: #d83b01 3px solid; padding-right: 15px; opacity: 0; transform: translate3d(-40px, 0, 0); transition: opacity 0.35s, transform 0.35s;}
+    .staticPage.staticMicrosoft .hovermenu:hover > img {opacity: 0.3; transform: scale(1);}
+    .staticPage.staticMicrosoft .hovermenu:hover .items {opacity: 1; transform: translate3d(0, 0, 0);}
+    .staticPage.staticMicrosoft .hovermenu .items a {font-size: 18px; font-weight: normal; color: #ffffff; line-height: 22px; text-decoration: none !important; font-family: 'Roboto Condensed',Tahoma,Geneva,sans-serif !important; padding: 5px 0; display: block;}
+    .staticPage.staticMicrosoft .hovermenu .items a:hover {color: #fff; text-decoration: underline !important;}
+    .staticPage.staticMicrosoft .hovermenu:hover {background: rgba(0,0,0,0.8);}
+    .staticPage.staticMicrosoft .videocontainer .graybox h2 {padding-top: 20px;}
+    .staticPage.staticMicrosoft .videocontainer .graybox .btnpos {bottom: 25px;}
+    .staticPage.staticMicrosoft .videocontainer .videocontent {position: relative; height: 290px;}
+    .staticPage.staticMicrosoft .videocontainer .videocontent h2 {color: #d83b01; font-size: 26px; font-weight: 700; text-align: left; margin: 20px;}
+    .staticPage.staticMicrosoft .videocontainer .videocontent h2.purple {color: #5c2d91 !important;}
+    .staticPage.staticMicrosoft .videocontainer .videocontent h2.blue {color: #0078d7 !important;}
+    .staticPage.staticMicrosoft .videocontainer .videocontent p {text-align: left; margin-left: 20px !important;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .staticPage.staticMicrosoft .videocontainer .videocontent {height: 220px;}
+    body.tabMobDevice .staticPage.staticMicrosoft .videocontainer .row {margin: 30px auto;}
+    body.tabMobDevice .staticPage.staticMicrosoft .videocontainer .row1 {margin: 0 auto;}
+    body.tabMobDevice .staticPage.staticMicrosoft .row1 h2.blue {margin: 0 20px 20px;}
+    body.tabMobDevice .staticPage.staticMicrosoft .hovermenu .items a {font-size: 16px;}
+    body.tabMobDevice .staticPage.staticMicrosoft #office365 #partnerContentContainer {margin-bottom: 0px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .staticPage.staticMicrosoft .row1 h2.blue {margin: 20px;}
+    body.mobileDevice .staticPage.staticMicrosoft .btnpos {position: relative; bottom: 0 !important; right: 0; text-align: center; margin-bottom: 20px;}
+    body.mobileDevice .staticPage.staticMicrosoft .videocontainer .videocontent {height: auto;}
+    body.mobileDevice .staticPage.staticMicrosoft .row4 p, body.mobileDevice .row2 p {text-align: center !important;}
+    body.mobileDevice .staticPage.staticMicrosoft .videocontainer .graybox h2 {padding-top: 0px;}
+	body.mobileDevice .staticPage.staticMicrosoft .microsoft-stickymenu-content #staticInformationMiddle .nav{padding-right:0;}
+
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END microsoft-nos-videos / cmcpage17461 Page **********************/
+
+
+/************************ START microsoft-nos-services / cmcpage17460 Page **********************/
+
+    .PageNosServices #office365 .contentcontainer h2 {padding-top: 20px;}
+    .PageNosServices #office365 .contentcontainer h3 {padding-top: 20px;}
+    .PageNosServices #office365 .contentcontainer .nav-pills > li.active > a,
+    .PageNosServices #office365 .contentcontainer .nav-pills > li.active > a:hover,
+    .PageNosServices #office365 .contentcontainer .nav-pills > li.active > a:focus {border: 1px solid #0062a1; background-color:transparent; color: #0062a1;}
+    .PageNosServices #office365 .contentcontainer .nav-pills > li > a {font-size: 16px; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; border: 1px solid #e0e0e0; border-radius: 0; font-weight: bold;   margin-bottom: 7px; margin-right: 10px; padding: 15px 20px; background: #fff; text-transform: uppercase; color: #000;}
+    .PageNosServices #office365 .contentcontainer .nav-pills > li:last-child a {margin-right: 0px;}
+    .PageNosServices #office365 .contentcontainer .product-wrapper {border: 1px solid #0062a1; padding: 25px;}
+    .PageNosServices #office365 .contentcontainer p.nopadd {font-weight: bold;}
+    .PageNosServices #office365 .contentcontainer ul.myulli > li {list-style-image: url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/office365-bullet.png");}
+    .PageNosServices #office365 .contentcontainer ul.myulli2 > li {list-style-type: square;}
+    .PageNosServices #office365 .contentcontainer .product-info .logo-big {float: right;}
+    .PageNosServices #office365 .contentcontainer #staticInformationMiddle .navbar-header .navbar-brand {display: none;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageNosServices #office365 .contentcontainer .nav-pills > li > a {margin-right: 5px; font-size: 14px; padding: 10px 10px;}
+    body.tabMobDevice .PageNosServices #office365 .contentcontainer a.btn:link {font-size: 1em;}
+    body.tabMobDevice .PageNosServices #office365 .contentcontainer .microsoft-stickymenu-content.fixedPosition #staticInformationMiddle ul {top: 94px; width: 750px;}
+    body.tabMobDevice .PageNosServices #office365 .contentcontainer .microsoft-bottom-content.fixedPosition #staticInformation > div {top: 156px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .PageNosServices #office365 .contentcontainer #staticInformationMiddle .navbar-header .navbar-brand {display: block; padding: 0px 4px;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer #staticInformationMiddle .navbar-header .navbar-toggle {background-color: #d83b01;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer #staticInformationMiddle .navbar-header .icon-bar {background-color: #fff;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer #staticInformationMiddle .nav-pills>li {float: none;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .nav-pills > li > a {margin-right: 0px; margin-bottom: 0px; border-bottom: none;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .nav-pills > li > a:hover,
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .nav-pills > li.active > a,
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .nav-pills > li.active > a:hover,
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .nav-pills > li.active > a:focus {background-color: #eee; color: #0062a1; border: 1px solid #e0e0e0; border-bottom:none;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .nav-pills > li+li {margin-left: 0px;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer {padding-top: 10px; padding-bottom: 10px;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .product-wrapper {padding: 10px;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .product-info .logo-big {float: none; margin: 0 auto; display: block;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer h3 {text-align: center;}
+    body.mobileDevice .PageNosServices #office365 .contentcontainer .microsoft-stickymenu-content.fixedPosition #staticInformationMiddle ul {width: 100%; top: 50px;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END microsoft-nos-services / cmcpage17460 Page **********************/
+
+
+/************************ START microsoft-nos-offres / cmcpage17459 Page **********************/
+
+    .PageNosOffres #office365 .contentcontainer .blue.box-title {background-color: #0078d7;}
+    .PageNosOffres #office365 .contentcontainer .orange.box-title {background-color: #eb3c00;}
+    .PageNosOffres #office365 .contentcontainer .box-title {border-radius:5px 5px 0 0;}
+    .PageNosOffres #office365 .contentcontainer .box-title2 {border-radius:5px 5px 0 0; background-color: #6c6c6c; margin-top: 20px;}
+    .PageNosOffres #office365 .contentcontainer .tablesort div.graybox div {display: inline-block;}
+    .PageNosOffres #office365 .contentcontainer .graybox {background-color: #ebebeb; vertical-align: middle;}
+    .PageNosOffres #office365 .contentcontainer .darkgraybox {background-color: #2f2f2f; vertical-align: middle; height: 200px; padding: 0 10px;}
+    .PageNosOffres #office365 .contentcontainer .tablesort .text-box1 {height: 200px; vertical-align: middle; display: table-cell; text-align: center !important;}
+    .PageNosOffres #office365 .contentcontainer .darkgraybox .price {color:#ffffff; font-size: 2em !important; text-align: center !important; font-weight: bold; padding: 40px 0 10px !important;}
+    .PageNosOffres #office365 .contentcontainer .darkgraybox .small {color:white; font-size:12px !important; text-align: center !important; line-height: 18px !important;}
+    .PageNosOffres #office365 .contentcontainer .smallblack {font-size:12px;}
+    .PageNosOffres #office365 .contentcontainer .blue h2, .PageNosOffres #office365 .contentcontainer .orange h2 {color: #ffffff; text-align: center; margin: 15px 0;}
+    .PageNosOffres #office365 .contentcontainer .darkgraybox .btn-cta {display: inline-block; cursor: pointer; font-family: 'Roboto Condensed',Arial,sans-serif; text-transform: uppercase; -webkit-border-radius: 2px; border-radius: 2px;  text-align: center; text-decoration: none; font-size: 1.1em; font-weight: 700; height: initial; padding: 0.6em 1em; color: #fff; border: 0px solid #00B45D; background-color: #00B45D;}
+    .PageNosOffres #office365 .contentcontainer .darkgraybox .btn-cta:hover, .PageNosOffres #office365 .contentcontainer .darkgraybox .btn-cta:focus {color: #fff; text-decoration: none; border: 0px solid #25BD74; background-color: #25BD74; -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0); box-shadow: inset 0 0px 0px rgba(0,0,0,0);}
+    .PageNosOffres #office365 .contentcontainer .box-titleOrng {margin: 40px 0 0;}
+    .PageNosOffres #office365 .contentcontainer .box-title2 h3 {padding: 10px 20px; color: #fff;}
+    .PageNosOffres #office365 .contentcontainer .tablesortsub .price, .PageNosOffres #office365 .contentcontainer .tablesortsub2 .price {padding: 15px 0 5px !important;}
+    .PageNosOffres #office365 .contentcontainer .tablesortsub .darkgraybox, .PageNosOffres #office365 .contentcontainer .tablesortsub2 .darkgraybox {padding: 0 10px;}
+    .PageNosOffres #office365 .contentcontainer .tablesortsub .graybox {height: 200px; display: table;}
+    .PageNosOffres #office365 .contentcontainer .tablesortsub .graybox div {display: table-cell !important; vertical-align: middle; float: none;}
+    .PageNosOffres #office365 .contentcontainer .tablesortsub2 .graybox {height: 200px;}
+    .PageNosOffres #office365 .contentcontainer .tablesortsub2 .graybox div.row {display: block !important;}
+    .PageNosOffres #office365 .contentcontainer .tablesortsub2 .graybox div.row:nth-child(2) {top: -20px; position: relative;}
+    .PageNosOffres #office365 .contentcontainer .darkgraybox .btn-cta.toggle-btn {font-size: 1em; padding: 0.8em 1em;}
+    .PageNosOffres #office365 .contentcontainer .orngbox {background: #d83b01; color: #fff !important; padding:0 20px;}
+    .PageNosOffres #office365 #partnerContentContainer {margin-top: 50px;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageNosOffres #office365 .contentcontainer .graybox img {width: 100%;}
+    body.tabMobDevice .PageNosOffres #office365 .contentcontainer .darkgraybox .small {line-height: 14px !important;}
+    body.tabMobDevice .PageNosOffres #office365 .contentcontainer .tablesortsub .darkgraybox .btn-cta, body.tabMobDevice .PageNosOffres #office365 .contentcontainer .tablesortsub2 .darkgraybox .btn-cta {font-size: 12px;}
+    body.tabMobDevice .PageNosOffres #office365 .contentcontainer .box-title2 h3 {font-size: 20px;}
+    body.tabMobDevice .PageNosOffres #office365 .contentcontainer .tablesort-tabs .graybox, body.tabMobDevice .PageNosOffres #office365 .contentcontainer .tablesort-tabs .darkgraybox {height: 220px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer h2 {font-size: 18px;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesort .text-box1 {height: 100px;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .darkgraybox {height: auto;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .darkgraybox .price {padding: 0px 0 0px !important; width: 40%; float: left;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .darkgraybox .btn-cta {margin: 7px 0; float: right; width: 40%; font-size: 1.2em;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .box-title2 h3 {font-size: 18px;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesortsub .graybox {height: auto;}
+    body.mobileDevice .PageNosOffres #office365 #partnerContentContainer {margin-top: 20px;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .darkgraybox .small {text-align: right !important; margin: 15px 0 0;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesortsub .darkgraybox .btn-cta, body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesortsub2 .darkgraybox .btn-cta {font-size: 1.2em;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesort div.graybox div {display: table;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesort div.graybox div.text-center div.text-center {display: table-cell !important; vertical-align: middle; float: none;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesortBlue div.graybox div {display: inline-block;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesortsub2 .graybox {height: auto;}
+    body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesort-tabs .graybox, body.mobileDevice .PageNosOffres #office365 .contentcontainer .tablesort-tabs .darkgraybox {height: auto;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END microsoft-nos-offres / cmcpage17459 Page **********************/
+
+
+/************************ START microsoft-surface-hub / cmcpage17478 Page **********************/
+
+    .PageSurfaceHub #office365 .contentcontainer .box-titleBlue {background-color: #0078d7; border-radius: 5px 5px 0 0; text-align: center; height: 112px;}
+    .PageSurfaceHub #office365 .contentcontainer .box-title h1, .PageSurfaceHub #office365 .contentcontainer .box-title h2 {color: #ffffff; text-transform: uppercase;}
+    .PageSurfaceHub #office365 .contentcontainer .box-title h1 {padding: 20px 25px 10px;}
+    .PageSurfaceHub #office365 .contentcontainer .box-titleBlue .logoRgt {margin-top: 25px;}
+    .PageSurfaceHub #office365 .contentcontainer .box-titleBlue h2 {text-transform: none !important;}
+    .PageSurfaceHub #office365 .contentcontainer .headerarea iframe {width: 100%; height: 555px;}
+    .PageSurfaceHub #office365 .contentcontainer .headerarea .vdocontainer {padding-left: 0; padding-right: 0;}
+    .PageSurfaceHub #office365 .contentcontainer h2 {color: #0078d7;}
+    .PageSurfaceHub #office365 .contentcontainer .section1 ul li {font-size:16px;} 
+    .PageSurfaceHub #office365 .contentcontainer .section1 h3 {color: #0078d7; margin-bottom: 20px;}
+    .PageSurfaceHub #office365 .contentcontainer .section1 {margin: 50px 0;}
+    .PageSurfaceHub #office365 .contentcontainer .section1 ul li b {color: #d83b01;}
+    .PageSurfaceHub #office365 .contentcontainer .section1 ul {margin-left: -20px;}
+    .PageSurfaceHub #office365 .contentcontainer .section2 img {width: 100%;}
+    .PageSurfaceHub #office365 .contentcontainer .section2 .box2 {padding-left: 20px;}
+    .PageSurfaceHub #office365 .contentcontainer .section3 .box2 {padding-right: 20px;}
+    .PageSurfaceHub #office365 .contentcontainer .section3 {margin: 20px 0 20px;}
+    .PageSurfaceHub #office365 .contentcontainer .iconsection {background: #d83b01;}
+    .PageSurfaceHub #office365 .contentcontainer .iconsection p {color: #fff;}
+    .PageSurfaceHub #office365 .contentcontainer .iconsection h2 {color: #fff; text-align: center; padding: 50px 0 20px;}
+    .PageSurfaceHub #office365 .contentcontainer .iconsection h4 {font-size: 22px; margin-top: 20px; color: #fff;}
+    .PageSurfaceHub #office365 .contentcontainer .iconsection .box3 {padding: 0 20px 20px;}
+    .PageSurfaceHub #office365 .contentcontainer .caractercontainer {margin: 50px auto;}
+    .PageSurfaceHub #office365 .contentcontainer .caractercontainer .block {background: #ebebeb; padding: 25px;}
+    .PageSurfaceHub #office365 .contentcontainer .caractercontainer .block img {text-align: center; width: 100%;}
+    .PageSurfaceHub #office365 .contentcontainer .caractercontainer h2 {padding-bottom: 30px;}
+
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageSurfaceHub #office365 .contentcontainer .box-titleBlue h2 {font-size: 24px;}
+    body.tabMobDevice .PageSurfaceHub #office365 .contentcontainer .headerarea iframe {height: 420px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .box-title h1 {font-size: 24px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .box-titleBlue h2 {font-size: 18px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .box-titleBlue .logoRgt {margin-top: 40px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .section1 ul li {font-size: 14px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .box-titleBlue img {width: 100%;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .section1 {margin: 30px 0;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .section2, body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .section3 {background-color: #f4f4f4; margin-left: -4px; margin-right: -4px; padding: 0 20px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .section2 .box2 {padding-left: 0px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .iconsection .box3 {padding: 0 10px 20px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .headerarea iframe {height: 230px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .iconsection h4 {font-size: 18px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .iconsection h2 {padding: 30px 0 20px;}
+    body.mobileDevice .PageSurfaceHub #office365 .contentcontainer .iconsection p {text-align: center;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END microsoft-surface-hub / cmcpage17478 Page **********************/
+
+
+/************************ START microsoft-surface / cmcpage17458 Page **********************/
+
+    .PageSurface #office365 .headerarea {background: url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/header.jpg') top center no-repeat; height: 367px; padding: 25px; margin-top: 25px;}
+    .PageSurface #office365 .headerarea .headlogo {float: right;}
+    .PageSurface #office365 .headerarea .headlogo .logo1 {text-align: right;}
+    .PageSurface #office365 .headerarea p {font-size: 1.2em !important; padding-top: 20px !important;}
+    /*.headerarea ul li {list-style: none; float: left;}
+    .headerarea ul {float: right;}*/
+    .PageSurface #office365 .contentcontainer #staticInformationMiddle .navbar-header .navbar-brand {display: none;}
+    .PageSurface #office365 .contentcontainer .nav-pills > li.active > a, .PageSurface #office365 .contentcontainer .nav-pills > li.active > a:hover, .PageSurface #office365 .contentcontainer .nav-pills > li.active > a:focus {border: 1px solid #0062a1; background-color: transparent;color: #0062a1;}
+    .PageSurface #office365 .contentcontainer .nav-pills > li > a {font-size: 16px; overflow: hidden; text-align: center; text-overflow: ellipsis; white-space: nowrap; border: 1px solid #e0e0e0; border-radius: 0; font-weight: bold; margin-bottom: 7px;  margin-right: 10px; padding: 15px 20px; background: #fff; background-color: #fff; text-transform: uppercase; color: #000;}
+    .PageSurface #office365 .contentwrapper .product-wrapper {border: 1px solid #0062a1; padding: 25px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper h4 {margin-top: 10px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central {margin-top: 20px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu {position: relative; display: block; width: 100%; height: auto; background: #000000; overflow: hidden;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu:hover h2 {transform: translateY(10px); background: none;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu > img {opacity: 1; transform: scale(1.05); transform-origin: 100% 100%; transition: all 0.3s ease; width: 100%;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu .items {position: absolute; opacity: 0; transform: translate3d(-40px, 0, 0); transition: opacity 0.35s, transform 0.35s;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu.vdohovermenu1 .items {width: 100%;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #laptop .content-central .vdohovermenu.vdohovermenu2 .items,
+    .PageSurface #office365 .contentwrapper .product-wrapper #book .content-central .vdohovermenu.vdohovermenu3 .items {transform: translate3d(0px, 0, 0); width: 100%;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #pro .content-central .vdohovermenu .items a {top: -158px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #laptop .content-central .vdohovermenu .items a {background: transparent url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/vdoicon.png") no-repeat center; top: -118px; height: 50px; margin: 0 auto;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #book .content-central .vdohovermenu .items a {background: transparent url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/vdoicon.png") no-repeat center; top: -129px; height: 50px; margin: 0 auto;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu:hover > img {opacity: 0.3; transform: scale(1);}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu:hover .items {opacity: 1; transform: translate3d(0, 0, 0);}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu .items a {position: relative; top: -138px; left: 0px; background: rgba(0,120,215,0.7) url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/vdoicon.png") no-repeat 10px center; color: #fff; padding: 10px; width: 100%; display: block; margin-top: 5px; text-align: left; font-size: 14px; padding-left: 50px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .vdohovermenu .items a:hover {font-weight: normal;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .eco {text-align: center; margin: 0 auto 20px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .usages {clear: both; padding-right: 15px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .client {padding-left: 15px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .video { }
+    .PageSurface #office365 .contentwrapper .product-wrapper .picto {clear: both; background: #d83b01; padding:30px 10px 20px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .picto .picto1 {width: 14%; float: left; text-align: center; padding: 0 10px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .picto .picto1 img {margin-bottom: 10px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .picto .picto1 p {color: #fff; font-size: 0.9em !important; text-align: center !important; line-height: 18px !important;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .picto .picto1 p sup {font-size: 0.8em;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .small-text {clear: both; font-size: 0.9em !important;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .produit-surface {height: 150px; margin: 10px 0;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .produit-surface p { }
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .produit-surface {background: #ebebeb;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .produit-surface .img-accordeon img {padding: 0px; width: 100%; height: auto; position: absolute; top: 0; bottom: 0; margin: auto;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .img-accordeon {padding: 0; background: #fff; height: 100%; border: 10px solid #ebebeb; position: relative;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .title-article {font-size: 25px; color: #0078d7; margin: 0; font-weight: 600;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .title-prod { }
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .price-container {text-align: right;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs {padding-top: 25px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs .gblSale {color: #0078d7; font-size: 30px; font-weight: bold;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs .btn {margin-top: 10px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs .gblSaleTaxSup {font-size: 14px; color: #0078d7; position: relative; bottom: 8px; font-weight: bold;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs .TextNOB {display: none;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs .gblSaleTaxInc {display: none;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable {margin-top: 10px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable h5 {font-size: 18px; font-weight: bold; margin: 0;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .mainmenuitem1 {padding: 0;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .produits {color: #fff; background: #0078d7; padding: 15px 20px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .area .produit-surface .title-info {padding: 20px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer {margin-top: 30px; background: #e7e7e7; height: 276px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .imgleft {height: 100%; position: relative;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .imgleft img {top: 0; bottom: 0; margin: auto; position: absolute; width: 100%; padding-left: 10px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer h2 {color: #444444 !important; text-transform: none !important; padding: 25px 0px 15px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .condition {font-weight: bold; color: #444444; font-size: 1.3em; margin: 10px 0;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .switchurl.btn {float: right;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer span {font-weight: bold; color: #7a7a7a; text-align: right; display: block; font-size: 13px; padding-top: 5px; clear: both;}
+    .PageSurface.staticMicrosoft .microsoft-stickymenu-content.fixedPositionBottom #staticInformationMiddle ul {bottom: 0; border-top: 1px solid #0062a1;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .sticker {border-radius: 50%; background: #00b7ce; text-align: center; height: 145px; width: 145px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .cloud {margin-top: 10px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .cloud p {color: #444444; display: inline-block; text-align: right; margin: 0; padding-right: 40px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .sticker {text-align: right;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .sticker p {text-align: center !important; font-size: 1.3em; color: #fff; line-height: 26px !important; padding-top: 5px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .content-central .perfor, .PageSurface #office365 .contentwrapper .product-wrapper .content-central .ecran, .PageSurface #office365 .contentwrapper .product-wrapper .content-central .video {padding-right: 15px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .processeur {margin: 40px auto;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .cellcontent {border: 0px solid #FFFFFF !important; top: 50px; position: relative; background: #e3f3ff !important;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio div.processeurTbl {background-color: #e3f3ff; width: 100%; text-align: center; border-collapse: collapse;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable.processeurTbl .divTableCell, .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable.processeurTbl .divTableHead {border: 1px solid #FFFFFF; padding: 7px 5px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable.processeurTbl .divTableBody .divTableCell {font-size: 13px;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable.processeurTbl .divTableCell:nth-child(even) {background: #f3f4f6;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable.processeurTbl .divTableHeading {background: #383838;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable.processeurTbl .divTableHeading .divTableHead {font-size: 13px; color: #fff; text-align: center;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable {display: table;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTableRow {display: table-row;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTableHeading {display: table-header-group;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTableCell, .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTableHead {display: table-cell;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTableHeading {display: table-header-group;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTableFoot {display: table-footer-group;}
+    .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTableBody {display: table-row-group;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .orngttl {color: #fa5210; font-size: 20px; font-weight: bold;}
+    .PageSurface #office365 .content-central .para-titre {color: #0078d7; font-weight: bold; font-size: 18px; margin: 0;}
+    .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .rightsection {padding: 0 20px 0 40px;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageSurface #office365 .contentwrapper .product-wrapper #pro .content-central .vdohovermenu .items a {top: -133px;}
+    body.tabMobDevice .PageSurface #office365 .contentwrapper .product-wrapper #book .content-central .vdohovermenu .items a  {top: -99px;}
+    body.tabMobDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .imgleft img {width: 100%;}
+    body.tabMobDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .cloud p {padding-right: 15px;}
+    body.tabMobDevice .PageSurface #office365 .contentcontainer .microsoft-stickymenu-content.fixedPosition #staticInformationMiddle ul {top: 94px; width: 750px;}
+    body.tabMobDevice .PageSurface #office365 .headerarea {background-size: contain; height: 300px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+	body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper #studio .divTable {display: block; overflow-x:auto;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer #staticInformationMiddle .navbar-header .navbar-brand {display: block; padding: 0px 4px;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer #staticInformationMiddle .navbar-header .navbar-toggle {background-color: #d83b01;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer #staticInformationMiddle .navbar-header .icon-bar {background-color: #fff;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer #staticInformationMiddle .nav-pills>li {float: none;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer .nav-pills > li > a {margin-right: 0px; margin-bottom: 0px; border-bottom: none;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer .nav-pills > li > a:hover,
+    body.mobileDevice .PageSurface #office365 .contentcontainer .nav-pills > li.active > a,
+    body.mobileDevice .PageSurface #office365 .contentcontainer .nav-pills > li.active > a:hover,
+    body.mobileDevice .PageSurface #office365 .contentcontainer .nav-pills > li.active > a:focus {background-color: #eee; color: #0062a1; border: 1px solid #e0e0e0; border-bottom:none;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer .nav-pills > li+li {margin-left: 0px;}
+
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .content-central .eco {text-align: left;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .content-central .client {padding-top: 15px; padding-left: 0px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .picto .picto1 {width: 100%; clear: both; float: none;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .picto .picto1 img {float: left;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .picto .picto1 p {float: left; width: 75%; text-align: left !important; font-size: 1em !important; padding-left: 20px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .produit-surface .title-info {padding: 5px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .title-article {font-size: 16px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .produit-surface p {margin: 5px 0;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs .gblSale {font-size: 18px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs {padding-top: 0px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .btn-abs .btn {width: 50%; float: left; margin-top: 0px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .expandable .price-container {text-align: left; width: 50%; float: left;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .area .produit-surface .title-info {padding: 10px 5px 5px;}
+    body.mobileDevice .PageSurface #office365 .headerarea .headlogo .logo1 {width: 100%;}
+    body.mobileDevice .PageSurface #office365 .headerarea {padding: 10px; height: auto;}
+    body.mobileDevice .PageSurface #office365 .headerarea h1 {font-size: 18px;}
+    body.mobileDevice .PageSurface #office365 .headerarea p {font-size: 0.9em !important; line-height: 16px; background: rgba(255,255,255,0.8); padding: 10px;}
+    body.mobileDevice .PageSurface #office365 .contentcontainer .microsoft-stickymenu-content.fixedPosition #staticInformationMiddle ul {width: 100%; top: 50px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer > div, body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer span {text-align: center !important;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .orngttl, body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer span {padding-right: 0px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .orngttl img {width: 40px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .cloud p {display: block; text-align: center;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .switchurl.btn {float: none;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer {height: auto; padding-bottom: 20px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .rightsection {padding: 0 10px;}
+    body.mobileDevice .PageSurface #office365 .contentwrapper .product-wrapper .surface-footer .condition {text-align: center;}
+
+   /*************************** END MOBILE DEVICE ***************************/
+
+
+/************************ END microsoft-surface / cmcpage17458 Page **********************/
+
+
+/************************ START windows-server-2016 / cmcpage17473 Page **********************/
+
+    .PageWServer #office365 .headerarea {background: url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/bg-header.jpg') top center no-repeat; background-size: cover; height: 305px; padding: 25px; margin-top: 25px;}
+    .PageWServer #office365 .headerarea .logo-right {position: absolute; right: 0;}
+    .PageWServer #office365 .headerarea h1 {color: #ffffff;}
+    .PageWServer #office365 .contentwrapper .box-gray {position: relative; background: #ebebeb; padding: 20px; margin: 20px 0 0;}
+    .PageWServer #office365 .contentwrapper .box-gray h2 {padding-bottom: 20px; text-align: center;}
+    .PageWServer #office365 .contentwrapper .box-gray .section {height: 475px; padding: 15px;}
+    .PageWServer #office365 .contentwrapper .box-gray .section1 {background: #feffeb;}
+    .PageWServer #office365 .contentwrapper .box-gray .section2 {background: #e6f8ff;}
+    .PageWServer #office365 .contentwrapper .box-gray .section3 {background: #ffeeee;}
+    .PageWServer #office365 .contentwrapper .box-gray .btnopenbox {bottom: 30px; position: absolute; left: 0; right: 0;}
+    .PageWServer #office365 .contentwrapper .box-gray .tabcontent {padding: 20px 15px;}
+    .PageWServer #office365 .contentwrapper .box-gray .myulli {margin-left: -20px;}
+    .PageWServer #office365 .contentwrapper .box-gray h3.mytitle {font-size: 20px; color: #001f5f; line-height: 25px; text-align: left; margin: 0; padding: 0;}
+    .PageWServer #office365 .contentwrapper .box-gray h3 {font-size: 16px; font-weight: 700; color: #001f5f !important; line-height: 20px; text-align: left; padding: 11px 0 11px 75px;}
+	.PageWServer #office365 .contentwrapper .box-gray h3 .box-text{display:block;}
+    .PageWServer #office365 .contentwrapper .box-gray h3.h31 {background: url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/icon-protect.png") center left no-repeat;}
+    .PageWServer #office365 .contentwrapper .box-gray h3.h32 {background: url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/icon-clock.png") center left no-repeat;}
+    .PageWServer #office365 .contentwrapper .box-gray h3.h33 {background: url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/icon-cloud.png") center left no-repeat;}
+    .PageWServer #office365 .contentwrapper .box-lgray {margin: 30px auto; text-align: center;}
+    .PageWServer #office365 .contentwrapper .box-lgray h2 {padding-bottom: 20px;}
+    .PageWServer #office365 .contentwrapper .box-gray .tabcontent {display: none;}
+    .PageWServer #office365 .contentwrapper p.text-center {text-align: center !important;}
+    .PageWServer #office365 .contentwrapper .clientsection h3 {padding-bottom: 20px; text-align: center;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper {position: relative; display: table; width: 100%; height: 254px; margin: 0 auto;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper.t1 {background: #3fc8f4 url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/pic-utilisateur.jpg") top center no-repeat;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper.t2 {background: #01aef0 url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/pic-appareil.jpg") top center no-repeat;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper.t3 {background: #0089d1 url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/pic-rds.jpg") top center no-repeat;}
+    .PageWServer #office365 .contentwrapper .clientsection .top p {font-size: 18px !important; padding-top: 10px !important;}
+    .PageWServer #office365 .contentwrapper .clientsection .bottom p {padding-bottom: 10px !important;}
+    .PageWServer #office365 .contentwrapper .clientsection .text-mini {font-size: 12px !important; line-height: 15px !important;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper > div {display: table-row; height: 50%;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper > div * {color: #ffffff !important;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper > div > p {display: table-cell; text-align: center !important;}
+    .PageWServer #office365 .contentwrapper .clientsection .titlewrapper > div:nth-child(2) > p {vertical-align: bottom;}
+    .PageWServer #office365 .contentwrapper .contactbox {background: #d83b01 url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/contactpic-bg.png") repeat-x left center; margin: 20px auto; padding: 20px;}
+    .PageWServer #office365 .contentwrapper .box-dblue {position: relative; background: #003c7f; padding: 10px 15px;}
+    .PageWServer #office365 .contentwrapper .box-dblue p {margin: 15px 0 0 !important; color: #fff;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable {width: 100%; border-spacing: 0px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable * {color: #ffffff !important;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable td {font-size: 13px; width: 33%; text-align: center; padding: 6px 6px 0 6px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .spacer {width: 5px !important; padding: 0 !important;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .thead {display: block; font-size: 17px; font-weight: 700;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .greenb-tlr .thead {background: #00887e; padding: 10px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .lblueb-tlr .thead {background: #4669c5; padding: 10px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .dblueb-tlr .thead {background: #00198f; padding: 10px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .hasbg {display: block; font-size: 12px; vertical-align: middle;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .greenb-lr .hasbg, .PageWServer #office365 .contentwrapper .box-lgray .attritable .greenb-blr .hasbg {background: #00887e; padding: 10px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .lblueb-lr .hasbg, .PageWServer #office365 .contentwrapper .box-lgray .attritable .lblueb-blr .hasbg {background: #4669c5; padding: 10px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .dblueb-lr .hasbg, .PageWServer #office365 .contentwrapper .box-lgray .attritable .dblueb-blr .hasbg {background: #00198f; padding: 10px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .bmini {display: block; color: #3d4a85 !important; height: 105px; padding: 5px;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .greenb-lr .bmini {border: #00887e 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .lblueb-lr .bmini {border: #4669c5 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .dblueb-lr .bmini {border: #00198f 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .greenb-tlr {border-top: #00887e 1px solid; border-left: #00887e 1px solid; border-right: #00887e 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .lblueb-tlr {border-top: #4669c5 1px solid; border-left: #4669c5 1px solid; border-right: #4669c5 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .dblueb-tlr {border-top: #00198f 1px solid; border-left: #00198f 1px solid; border-right: #00198f 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .greenb-blr {border-bottom: #00887e 1px solid; border-left: #00887e 1px solid; border-right: #00887e 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .lblueb-blr {border-bottom: #4669c5 1px solid; border-left: #4669c5 1px solid; border-right: #4669c5 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .dblueb-blr {border-bottom: #00198f 1px solid; border-left: #00198f 1px solid; border-right: #00198f 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .greenb-lr {border-left: #00887e 1px solid; border-right: #00887e 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .lblueb-lr {border-left: #4669c5 1px solid; border-right: #4669c5 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .attritable .dblueb-lr {border-left: #00198f 1px solid; border-right: #00198f 1px solid;}
+    .PageWServer #office365 .contentwrapper .box-lgray .text-larger {font-size: 18px !important; line-height: 26px !important;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageWServer #office365 .contentwrapper .box-gray h3 br {display: none;}
+    body.tabMobDevice .PageWServer #office365 .contentwrapper .box-gray .section p, body.tabMobDevice .PageWServer #office365 .contentwrapper .box-gray .myulli li {font-size: 0.9em !important;}
+    body.tabMobDevice .PageWServer #office365 .contentwrapper .box-gray .section {height: 500px;}
+    body.tabMobDevice .PageWServer #office365 .contentwrapper .box-lgray .box-dblue img {width: 100%;}
+	body.tabMobDevice .staticPage #fr_wrapper div.contentwrapper.contentcontainer div.container-fluid.iconsection  img{max-width:70px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .PageWServer #office365 .headerarea {background: #0089d1; height: auto; padding: 20px 15px;}
+    body.mobileDevice .PageWServer #office365 .headerarea h1 {font-size: 22px;}
+    body.mobileDevice .PageWServer #office365 .headerarea .logo-right img {width: 100%;}
+    body.mobileDevice .PageWServer #office365 .contentwrapper .box-gray .section h3 { padding: 55px 0;font-size: 12px;    text-align: center;    background-position: top center;  background-size: 50px;    line-height: 1.4em;}
+    body.mobileDevice .PageWServer #office365 .contentwrapper .box-gray {background: transparent; padding: 0;}
+    body.mobileDevice .PageWServer #office365 .contentwrapper .box-gray .section p, body.mobileDevice .PageWServer #office365 .contentwrapper .box-gray .myulli {display: none;}
+    body.mobileDevice .PageWServer #office365 .contentwrapper .box-gray .section {height: 180px;}
+    body.mobileDevice .PageWServer #office365 .contentwrapper .box-gray .btnopenbox {bottom: 10px;}
+    body.mobileDevice .PageWServer #office365 .contentwrapper .box-lgray .attritable .bmini {height: auto;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END windows-server-2016 / cmcpage17473 Page **********************/
+
+
+/************************ START microsoft-azure-cloud-tpe-pme / cmcpage17475 Page **********************/
+
+    .PageAzure #office365 .headerarea {background: url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/1000226_FR_header.jpg'); height: 276px; padding: 25px; margin-top: 25px;}
+    .PageAzure #office365 .headerarea h1, .PageAzure #office365 .headerarea h3 {color: #fff;}
+    .PageAzure #office365 .headerarea h1 {font-size: 65px; font-weight: normal;}
+    .PageAzure #office365 .headerarea h3 {padding-top: 70px; font-size: 35px; font-weight: lighter;}
+    .PageAzure #office365 .headerarea .logo-right {position: absolute; right: 0;}
+    .PageAzure #office365 .contentwrapper h2.blue {color: #00aeef !important; font-weight: bold; text-align: center; text-transform: none !important;}
+    .PageAzure #office365 .contentwrapper .graphic {background: url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/1000226_FR_infographic_top.jpg'); height: 544px; position: relative;}
+    .PageAzure #office365 .contentwrapper .graphic .box {position: absolute; width: 220px; text-align: center;}
+    .PageAzure #office365 .contentwrapper .graphic .box .text .box-text {color: #797a7d; font-size: 19px !important; text-align: center !important; display:block;}
+    .PageAzure #office365 .contentwrapper .graphic .box .number {font-size: 121px !important; margin-bottom: 0 !important; line-height: 93px !important; text-align: center !important;}
+    .PageAzure #office365 .contentwrapper .graphic .box .boxcont .smallprint {font-size: 10px !important; color: #797a7d; margin-top: 0px !important;}
+    .PageAzure #office365 .contentwrapper .graphic .box:first-of-type {top: 55px; left: 276px; color: #0089d0;}
+    .PageAzure #office365 .contentwrapper .graphic .box .boxcont .star {position: absolute; top: -15px; right: 83px; font-size: 26px !important;}
+    .PageAzure #office365 .contentwrapper .graphic .box:nth-of-type(2) {top: 180px; right: 146px; color: #5c2e91;}
+    .PageAzure #office365 .contentwrapper .graphic .box:last-of-type {top: 330px; left: 150px; color: #f2621e;}
+    .PageAzure #office365 .contentwrapper h3.blue {color: #01aeef; font-weight: bold; font-size: 17px; margin-bottom: 6px; padding-left: 0px; padding-top: 20px;}
+    .PageAzure #office365 .contentwrapper ul {padding-left: 0px; margin-top: 0; margin-bottom: 20px;}
+    .PageAzure #office365 .contentwrapper ul li {color: #797a7d; font-size: 16px; list-style-type: none;}
+    .PageAzure #office365 .contentwrapper .blue-banner {background: url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/1000226_FR_blue_banner.jpg'); height: 156px; margin-top: 30px;}
+    .PageAzure #office365 .contentwrapper .blue-banner h2 {color: #fff !important; margin: 0; padding: 68px 0 0 0px; text-align: center;}
+    .PageAzure #office365 .contentwrapper .w380 h3 {font-weight: bold;}
+    .PageAzure #office365 .contentwrapper .w380 p {font-size: 16px !important; color: #58585a; margin: 5px 0 20px !important;}
+    .PageAzure #office365 .contentwrapper .w500 img {width: 100%; padding-right: 20px;}
+    .PageAzure #office365 .contentwrapper .w380 .box {margin: 0 auto; background: #f4f4f4; padding: 25px 25px 10px;}
+    .PageAzure #office365 .contentwrapper .w380 .box p {color: #58585a !important; font-size: 20px !important; font-weight: bold !important; margin-top: 0 !important; display: block; float: left; padding-right: 20px !important;}
+    .PageAzure #office365 .contentwrapper .w380 p.smallprint {font-size: 14px !important; color: #58585a; margin-bottom: 20px !important;}
+    .PageAzure #office365 .contentwrapper .w380 .box h2 {font-size: 56px; font-weight: bold; margin: 0 0 10px; line-height: 30px; text-align: left;}
+    .PageAzure #office365 .contentwrapper .w380 .box sup {font-size: 60%; position: relative; top: -18px;}
+    .PageAzure #office365 .contentwrapper .w380 .box h2 span {font-size: 18px; text-transform: lowercase;}
+    .PageAzure #office365 .contentwrapper .w380 .box h3 {color: #58585a; font-size: 46px; margin: 0; line-height: 30px; margin-top: 20px;}
+    .PageAzure #office365 .contentwrapper .w380 .box h3 span {font-size: 13px;}
+    .PageAzure #office365 .contentwrapper .greybg {padding: 25px; background: #e7e7e7;}
+    .PageAzure #office365 .contentwrapper .greybg h4 {padding-bottom: 20px; text-align: center;}
+    .PageAzure #office365 .contentwrapper .form-ms-azure-17-febr input[type="text"], .PageAzure #office365 .contentwrapper .form-ms-azure-17-febr textarea {width: 100%; color: #000; border-radius: 2px; font-size: 14px; margin-bottom: 10px; padding: 7px 10px; border: 1px solid #ccc; background: #fff;}
+    .PageAzure #office365 .contentwrapper .form-ms-azure-17-febr textarea {height: 100px; resize: vertical;}
+    .PageAzure #office365 .contentwrapper .form-ms-azure-17-febr:first-child {padding-right: 15px;}
+    .PageAzure #office365 .contentwrapper .form-ms-azure-17-febr:last-child {padding-left: 15px;}
+    .PageAzure #office365 .contentwrapper .graphic .box .numbertext {line-height: 36px; font-size: 40px; width: 82px; float: left; padding-top: 14px; margin-left: -3px; margin-right: 3px;}
+    .PageAzure #office365 .contentwrapper .graphic .box .boxcont {position: relative; width: 100%; height: 100%;}
+    .PageAzure #office365 .contentwrapper .graphic .box:nth-of-type(2) {top: 190px; right: 152px; color: #5c2e91;}
+    .PageAzure #office365 .contentwrapper .graphic .box:last-of-type {top: 330px; left: 150px; color: #f2621e;}
+    .PageAzure #office365 .contentwrapper .graphic .box:last-of-type .row {margin-bottom: 14px;}
+    .PageAzure #office365 .contentwrapper .graphic .box:last-of-type .number {float: left;}
+    .PageAzure #office365 .contentwrapper .purple {color: #794199 !important;}
+    .PageAzure #office365 .contentwrapper h2.purple {font-size: 25px; font-weight: bold; text-align: center; margin: 30px 0;}
+    .PageAzure #office365 .contentwrapper .w380 p.purplebg {background-color: #794199; color: #fff; font-size: 26px !important; text-align: center !important; padding: 20px 50px !important; margin: 0 0 30px !important; line-height: 30px !important;}
+    .PageAzure #office365 .contentwrapper .iconsection {text-align: center;}
+
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageAzure #office365 .headerarea {background-size: contain; height: 200px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic {background-size: contain; height: 400px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box .number {font-size: 80px !important;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box:first-of-type {top: 20px; left: 180px; width: 210px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box:nth-of-type(2) {top: 110px; right: 100px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box .boxcont .star {right: 90px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box:nth-of-type(2) .text {margin: 0 0 15px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box .numbertext {font-size: 32px; width: 65px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box:last-of-type {top: 220px; left: 108px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .graphic .box:last-of-type .text {top: -27px; position: relative; left: -26px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .blue-banner {background-size: contain; height: 100px;}
+    body.tabMobDevice .PageAzure #office365 .contentwrapper .blue-banner h2 {padding: 38px 0 0 0px;}
+    body.tabMobDevice .PageAzure #office365 .headerarea h1 {font-size: 50px;}
+    body.tabMobDevice .PageAzure #office365 .headerarea h3 {padding-top: 50px; font-size: 25px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+
+	body.mobileDevice .PageAzure #office365 .contentwrapper .w380 p.purplebg { font-size: 22px !important;}
+	body.mobileDevice .PageAzure #office365 .contentwrapper .w380 .box h2 {font-size: 40px;}
+	body.mobileDevice .PageAzure #office365 .contentwrapper .w380 .box h3 { font-size: 38px;}
+    body.mobileDevice .PageAzure #office365 .headerarea h1 {font-size: 27px;}
+    body.mobileDevice .PageAzure #office365 .headerarea .logo-right img {width: 100%;}
+    body.mobileDevice .PageAzure #office365 .headerarea h3 {padding-top: 20px; font-size: 12px;}
+    body.mobileDevice .PageAzure #office365 .headerarea {height: auto;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .iconsection img {width: 100%;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic {background: none; height: 340px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box:first-of-type {background: #e7e7e9 url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/azure-bgbox-1.png') no-repeat 20px 5px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box:nth-of-type(2) {background: #e7e7e9 url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/azure-bgbox-2.png') no-repeat 20px 5px; top: 125px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box:nth-of-type(3) {background: #e7e7e9 url('/imagesportal/localisation/inmac/images/responsive/SP_microsoft/azure-bgbox-3.png') no-repeat 20px 5px; top: 230px;}
+	body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .text .box-text:nth-child(2),
+	body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .text .box-text:nth-child(3){
+		margin-left:3px;
+	}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .number {font-size: 40px !important; line-height: 50px !important;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .text .box-text {line-height: 16px; font-size: 12px !important; margin: 0;display: inline-block;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box {left: auto !important; width: 100% !important; right: auto !important; height: 100px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box:nth-of-type(2) .text {margin: 0 0 0px;}
+	body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .text{text-align:center;line-height: 18px; margin: 5px 0;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .numbertext {font-size: 20px; width: 42px; line-height: 22px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box:last-of-type .text {top: 0px; position: relative; left: 0px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper ul li {font-size: 13px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .form-ms-azure-17-febr:last-child {padding-left: 0px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .form-ms-azure-17-febr:first-child {padding-right: 0px;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .boxcont .star {right: 62px; top: -18px; display: none;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box .boxcont .smallprint {text-align: center;}
+    body.mobileDevice .PageAzure #office365 .contentwrapper .graphic .box:last-of-type .row {margin-bottom: 0px; left: 37%; position: relative;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END microsoft-azure-cloud-tpe-pme / cmcpage17475 Page **********************/
+
+
+/************************ START microsoft-windows-pro / cmcpage17457 Page **********************/
+
+    .PageWPro #office365 .tabcontainer, .PageWPro #office365 .tabcontainer2 {display: none; margin:0;}
+    .PageWPro #office365 .contentwrapper .blue {background-color:#00b0f0; color:#ffffff;}
+    .PageWPro #office365 .grid {margin-left:0; margin-right:0;}
+    .PageWPro #office365 .tb1 {background: #f4f4f4; padding: 25px;}
+    .PageWPro #office365 .tb1 .nav-pills > li + li {margin-left: 0px;}
+    .PageWPro #office365 .contentwrapper #myCarousel {margin: 10px auto 30px; border: #b6b6b6 1px solid;}
+    .PageWPro #office365 .contentwrapper .carousel-control.left {background-image: linear-gradient(to right, rgba(0,0,0,0.1) 0, rgba(0,0,0,0.0001) 100%);}
+    .PageWPro #office365 .contentwrapper .carousel-control.right {background-image: linear-gradient(to right, rgba(0,0,0,0.0001) 0, rgba(0,0,0,0.1) 100%);}
+    .PageWPro #office365 .contentwrapper .carousel-control .icon-next, .PageWPro #office365 .contentwrapper .carousel-control .glyphicon-chevron-right {right: 30%; font-family: 'Glyphicons Halflings';}
+    .PageWPro #office365 .contentwrapper .carousel-control .icon-prev, .PageWPro #office365 .contentwrapper .carousel-control .glyphicon-chevron-left {left: 20%; font-family: 'Glyphicons Halflings';}
+    .PageWPro #office365 .contentwrapper .carousel-control {color: #717171 !important;}
+    .PageWPro #office365 .contentwrapper .carousel-indicators {display: none;}
+    .PageWPro #office365 .nav-pills > li.active > a, .PageWPro #office365 .nav-pills > li.active > a:hover, .PageWPro #office365 .nav-pills > li.active > a:focus {background: transparent;}
+    .PageWPro #office365 li.active {border-width:0 0 5px 0; border-color:#0078d7; border-style: solid;}
+    .PageWPro #office365 .tab-title {color:#000000; padding-top: 5px; font-size: 18px;}
+    .PageWPro #office365 .active .tab-title {color: #0078d7;}
+    .PageWPro #office365 .tab-area {border: 1px solid #0078d7; padding: 15px;}
+    .PageWPro #office365 .sico {float:left;}
+    .PageWPro #office365 .tabcontainer .grid div p {float: right; width: 95%; text-align: left;}
+    .PageWPro #office365 .bg-txt.blue-text {color:#0078d7;}
+    .PageWPro #office365 .bg-txt {font-size:16px;    display: inline-block;}
+    .PageWPro #office365 .tabcontainer p {text-align: left;}
+    .PageWPro #office365 p.small {text-align: right; clear: both;}
+    .PageWPro #office365 .tabcontainer .grid div {clear: both; padding-top: 10px;}
+    .PageWPro #office365 .mdlcontentcontainer {background: #01b0f1; padding: 25px 0;}
+    .PageWPro #office365 .mdlcontentcontainer h2 {color: #fff;}
+    .PageWPro #office365 .bluegrid {margin-top: 20px;}
+    .PageWPro #office365 .bluegrid .tabs2 li a img {border: 1px solid #fff; border-radius: 5px; padding: 5px;}
+    .PageWPro #office365 .nav > li > a:hover, .PageWPro #office365 .nav > li > a:focus {background-color:transparent;}
+    .PageWPro #office365 .tab-title2 {font-size:18px; color:#ffffff; padding-top: 5px;}
+    .PageWPro #office365 .bluegrid .tabs2 li.active {border-color: #000;}
+    .PageWPro #office365 .tab-area.blue {border: none; padding: 15px 0;}
+    .PageWPro #office365 .bluegrid .tabs2 li {width: 19.8%;}
+    .PageWPro #office365 .graybox {background-color:#ebebed; padding: 25px;}
+    .PageWPro #office365 h3.blue-text {margin-bottom: 5px; color:#0078d7; font-size: 18px;}
+    .PageWPro #office365 .graybox p {margin: 0 0 0px;}
+    .PageWPro #office365 .tab-area .tab-title2 {display: none;}
+
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageWPro #office365 .tab-title {font-size: 15px;}
+    body.tabMobDevice .PageWPro #office365 .tabcontainer .grid div p {width: 93%;}
+    body.tabMobDevice .PageWPro #office365 .bluegrid .tabs2 li {width: 19.7%;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .PageWPro #office365 .contentwrapper .tabs li a img {width: 100%; max-width:70px;}
+    body.mobileDevice .PageWPro #office365 .tab-title {font-size: 12px;}
+    body.mobileDevice .PageWPro #office365 .tabcontainer .grid div p {width: 87%;}
+    body.mobileDevice .PageWPro #office365 .bluegrid .tabs2 li a img {width: 100%;}
+    body.mobileDevice .PageWPro #office365 .tab-title2 {font-size: 14px;}
+    body.mobileDevice .PageWPro #office365 .bluegrid .tabs2 li {width: 19%;}
+    body.mobileDevice .PageWPro #office365 .contentwrapper {padding: 15px;}
+    body.mobileDevice .PageWPro #office365 .contentwrapper .graybox .btn {margin-top: 20px;}
+    body.mobileDevice .PageWPro #office365 .tb1 {padding: 10px 5px;}
+    body.mobileDevice .PageWPro #office365 .tab-area .tab-title2 {font-size: 20px; padding-bottom: 10px; text-align: left;}
+    body.mobileDevice .PageWPro #office365 .tab-area.blue {padding: 15px 10px;}
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END microsoft-windows-pro / cmcpage17457 Page **********************/
+
+
+/************************ START microsoft-office / cmcpage17455 Page **********************/
+
+    .PageMOffice #office365 .contentwrapper .diagrams p {text-align: left;}
+    .PageMOffice #office365 .contentwrapper .diagrams img {float: left; padding: 0 20px;}
+    .PageMOffice #office365 .part-product-carousel ul {display: table-cell; list-style: none; padding: 0; margin: 0;}
+    .PageMOffice #office365 .part-product-carousel ul li {}
+    .PageMOffice #office365 .part-product-carousel ul li {display: block; text-decoration: none; transition: background .2s ease-in-out; position: relative; padding: 0; margin: 0; background: #fff; width: 95%;}
+    .PageMOffice #office365 .part-product-carousel ul.nav-tabs {border-bottom: none;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info {padding: 20px 0; position: relative;}
+    .PageMOffice #office365 .product-info .office-logo-abs {text-align: right;}
+    .PageMOffice #office365 .part-product-carousel .navbar-brand {display: none;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info ul.myulli {margin-bottom: 20px; display: block; list-style: initial; width: 100%; font-size: 14px; line-height: 18px; height: auto;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .myulli li {margin: 0 0 0 20px; border: none; background: none; width: 100%; list-style-image: url("/imagesportal/localisation/inmac/images/responsive/SP_microsoft/office365-bullet.png"); display: list-item;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3 {color: #2a3282; text-align: left; font-size: 18px; font-weight: 700; margin: 20px 0 10px;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.gray-head {background: #ebebed; color: #00188f; font-size: 18px; font-weight: 700; width: 30%; padding: 20px; margin: 0;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content {background: #ebebed; padding: 5px 20px 20px;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content span {color: #00188f; font-weight: 700;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.excel span, .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.excel {color: #007233;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.powerpoint span, .part-product-carousel .product-wrapper .product-info h3.powerpoint {color: #dd5900;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.onenote span, .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.onenote {color: #68217a;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.outlook span, .part-product-carousel .product-wrapper .product-info h3.outlook {color: #0072c6;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.onedrive span,.PageMOffice #office365 .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.onedrive {color: #094ab2;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.skype span, .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.skype {color: #00aff0;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.yammer span, .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.yammer {color: #0072bc;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content.exchange span, .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.exchange {color: #0072b6;}
+    .PageMOffice #office365 #exchange span {color: #0072b6; font-weight: 700;}
+    .PageMOffice #office365 .bg-tblue {background: #0078d7; padding: 10px 10px !important; color: #fff;}
+    .PageMOffice #office365 .bg-tblue.first, .bg-torange.first {-webkit-border-top-left-radius: 10px; -webkit-border-top-right-radius: 10px; -moz-border-radius-topleft: 10px; -moz-border-radius-topright: 10px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom: 2px solid #fff;}
+    .PageMOffice #office365 .bg-torange {background: #da3b01; padding: 10px 10px !important; color: #fff;}
+    .PageMOffice #office365 .mytable-2 {position: relative; width: 100%; border-collapse: separate; border-spacing: 0px; margin: 0;}
+    .PageMOffice #office365 .mytable-2 tr {background: #ffffff;}
+    .PageMOffice #office365 .mytable-2 tr:nth-child(even) {background: #e9e8e7;}
+    .PageMOffice #office365 .mytable-2 td {font-size: 14px; text-align: center; vertical-align: middle; padding: 10px 0; border-bottom: 1px solid #c1c1c1; border-left: 1px solid #c1c1c1;}
+    .PageMOffice #office365 .mytable-2 tr td:nth-child(1) {text-align: left; padding-left: 10px;}
+    .PageMOffice #office365 .emptycell {background-color: #fff; border: 0px !important;}
+    .PageMOffice #office365 .mytable-2 tr td:last-child {border-right: 1px solid #c1c1c1;}
+    .PageMOffice #office365 .mytable {padding: 25px 0;}
+    .PageMOffice #office365 .mytable h2 {text-align: center; padding-bottom: 20px;}
+    .PageMOffice #office365 .headcontainer {background: #f4f4f4; padding: 25px; border: 10px solid #e6e6e6;}
+    .PageMOffice #office365 .contentwrapper h3 {color: #e8641a;}
+    .PageMOffice #office365 .part-product-carousel {margin: 40px auto;}
+    .PageMOffice #office365 .part-product-carousel h3 {text-align: center; padding-bottom: 20px;}
+    .PageMOffice #office365 .product-carousel-wrapper .nav-tabs li.active a:after {content: ''; position: absolute; left: 100%; top: 50%; margin-top: -13px; border-bottom: 13px solid transparent; border-top: 13px solid transparent; border-left: 10px solid #ebebec;}
+    .PageMOffice #office365 .product-carousel-wrapper {position: relative; display: table; border: #ebebec 10px solid; -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175); box-shadow: 0 6px 12px rgba(0,0,0,.175); -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175); padding: 0px;}
+    .PageMOffice #office365 .part-product-carousel .product-wrapper {display: table-cell; background: #ffffff; vertical-align: top;}
+    .PageMOffice #office365 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .PageMOffice #office365 .nav-tabs > li.active > a:focus {border: #ffffff 1px solid; background: transparent;}
+    .PageMOffice #office365 .nav-tabs > li > a {border-radius: 0; margin-right: 0px;}
+    .PageMOffice #office365 .nav-tabs > li:hover, .PageMOffice #office365 .nav-tabs > li.active {border-color:#fff; background: #ebebec;}
+    .PageMOffice #office365 .nav-tabs > li.active {border-bottom: #ddd 1px solid;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageMOffice #office365 .tab-content .mainimg-abs img,  body.tabMobDevice .PageMOffice #office365 .mytable-2 tr td img {width: 100%;}
+    body.tabMobDevice .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.gray-head {width: 45%;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .PageMOffice #office365 .headcontainer h2 {font-size: 22px; text-align: left;}
+    body.mobileDevice .PageMOffice #office365 .headcontainer .text-right img {width: 100%;}
+    body.mobileDevice .PageMOffice #office365 .headcontainer {padding: 15px;}
+
+    /* LEFT NAV PANEL */
+    body.mobileDevice .PageMOffice #office365 .product-info .office-logo-abs img {width: 100%;}    
+    body.mobileDevice .PageMOffice #office365 #page-content-wrapper {position: relative; margin-right: -250px;}
+    body.mobileDevice .PageMOffice #office365 #page-content-wrapper #menu-toggle i {font-family: FontAwesome; font-size: 21px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul li {width: 100%; text-indent: 0px; height: 40px; border-bottom: #ddd 1px solid;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul li:hover {border-bottom:none;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul li a {padding: 0px; height: 100%; margin: 0;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul li.active {border-right:none; border-bottom: #ddd 1px solid; background: #ebebec;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul li:first-child {border-top: #ddd 1px solid;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul li a img {margin-left: -10px; margin-top: -10px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul li.active a {height: 39px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .myulli li {height: auto; width: auto; font-size: 12px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel h3 {padding-bottom: 10px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info h3.gray-head {width: 60%;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .product-wrapper .product-info .gray-content iframe {width: 100%;}
+    body.mobileDevice .PageMOffice #office365 .mytable-2 td {font-size: 12px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .navbar-header {border-bottom: 1px solid #d83b01; padding-bottom: 5px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .navbar-header .navbar-toggle {background: #d83b01; margin-right: 7px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .navbar-header .navbar-toggle .icon-bar {background: #fff;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .navbar-brand {display: block; color: #fff; padding: 3px 0 0 10px;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel ul {display: block; height: 410px;}
+    body.mobileDevice .PageMOffice #office365 .product-carousel-wrapper .nav-tabs li.active a:after {display: none;}
+    body.mobileDevice .PageMOffice #office365 .part-product-carousel .navbar-collapse.in {padding: 0;}
+
+    /*************************** END MOBILE DEVICE ***************************/
+
+/************************ END microsoft-office / cmcpage17455 Page **********************/
+
+
+/************************ START boutique-microsoft / cmcpage17454 Page **********************/
+
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem .hovereffect .overlay {display:none;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem {position: relative;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.third .overlay {/*height: 182px;*/}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a {width:100%; min-height: 150px; display: inline-block; border: #dedede 3px dashed; text-decoration: none;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a:hover {border: #0078d7 3px dashed;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a img {transform: scale(1); transition: all 200ms ease-in;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a:hover img {transform: scale(1.1); transition: all 200ms ease-in; max-width: 90%;}
+    .PageBMicrosoft #office365 .contentwrapper .carousel-control .fa {font-family: FontAwesome !important; width: 32px; height: 32px;}
+    .PageBMicrosoft #office365 .contentwrapper h2 {padding: 40px 0 10px;}
+    .PageBMicrosoft #office365 .contentwrapper .boxes2 {width: 18%; float: left; margin-right: 1%; background: #fff;}
+    .PageBMicrosoft #office365 .contentwrapper .graybox .boxes2:first-child {margin-left: 3%;}
+    .PageBMicrosoft #office365 .contentwrapper .tablesort {padding: 10px 0;}
+    .PageBMicrosoft #office365 .contentwrapper h2.blue {color:#0078d7 !important; padding: 20px;}
+    .PageBMicrosoft #office365 .contentwrapper .boxes2 .mainmenuitem a {border: none; padding: 20px 0;}
+    .PageBMicrosoft #office365 .contentwrapper h4 {bottom: 10px; position: absolute; margin: 0 auto; right: 0; left: 0;}
+    .PageBMicrosoft #office365 .contentwrapper .iconboxes.graybox {padding-bottom: 30px; margin-top: 0px;}
+    .PageBMicrosoft #office365 .contentwrapper .graybox {margin-top: 30px;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.second a {padding: 30px 0;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.second .hovereffect .moreDetail {margin: 60px 0 0 0px;}
+    .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a img {top: 0; bottom: 0; height: auto; position: absolute; margin: auto; left: 0; right: 0;}
+    .PageBMicrosoft #office365 .contentwrapper .boxes2 .mainmenuitem a img {bottom: 20px;}
+
+    /*************************** START TABLET DEVICE ***************************/
+    body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper h2 {font-size: 26px;}
+    body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a img {max-width: 80%; width: auto;}
+    body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a:hover img {max-width: 85%; width: auto;}
+    body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.third a img.iconimg {width: 100px;}
+    body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper .boxes2 .mainmenuitem a:hover {border:none;}
+    body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper .boxes2, body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.third .overlay {height: 190px;}
+    body.tabMobDevice .PageBMicrosoft #office365 .contentwrapper h4 {bottom: -5px;}
+    /*************************** END TABLET DEVICE ***************************/
+
+    /*************************** START MOBILE DEVICE ***************************/
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper h2 {font-size: 20px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.first .hovereffect .moreDetail {margin: 15px 0 0 0px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.second {margin-bottom: 8px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .boxes2 {width: 31%; margin-bottom: 5px; height: 140px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .graybox .boxes2:first-child {margin-left: 2%;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper h4 {font-size: 15px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .boxes2:nth-child(4) {margin-left: 18%;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.third .overlay {height: 100%;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem a {min-height: 70px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .mainmenuitem.second a img {max-height: 50px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper .boxes2 .mainmenuitem a img {bottom: -40px;}
+    body.mobileDevice .PageBMicrosoft #office365 .contentwrapper h4 {bottom: -60px;}
+
+    /*************************** END MOBILE DEVICE ***************************/
+
+
+/******************************************************************** END MICROSOFT Pages ******************************************************************/
+
+
+
+
+/******************************************************************** START CONFIGURATEURS Pages ******************************************************************/
+.PageConfig {padding: 40px 0;}
+.PageConfig h1.mainTitle {
+    background: url("/imagesportal/localisation/inmac/images/responsive/common/bullet-mainTitle.png") no-repeat 0px 0px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    padding: 2px 10px 12px 50px;
+    margin-top: 10px;
+    color: #333;
+    position: relative;
+    font-size: 30px;
+}
+.PageConfig h1.mainTitle:before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 5px;
+    bottom: 0;
+    border-bottom: 3px solid #F03434;
+}
+.PageConfig.ConfigCart h1.mainTitle:before {width: 40%;}
+.PageConfig.ConfigCable h1.mainTitle:before {width: 40%;}
+
+body.tabletDevice .PageConfig h1.mainTitle {font-size: 26px;}
+
+body.mobileDevice .PageConfig h1.mainTitle {font-size: 22px;}
+body.mobileDevice .PageConfig.ConfigWHp .header ul {padding-top: 0px;}
+body.mobileDevice .PageConfig.ConfigWHp .header ul li {margin-left: 50px; margin-bottom: 5px; display: block;}
+
+
+/* START configurateur-cartouche-jet-encre-toner - cp17235.htm */
+/*div#ccs-selector-wrapper, div#ccs-selector-wrapper-content, div#ccs-selector-slider-window, div.ccs-selector-slider-panel, div.ccs-selector-step-content {width: 100% !important;}*/
+
+div#ccs-selector-search {height: 50px !important;}
+div#ccs-selector-searchinput-back {margin-top: 2px !important;}
+div.ccs-selector-title {line-height: 26px !important;}
+
+
+body.mobileDevice div#ccs-selector-wrapper {width: 100% !important;}
+body.mobileDevice div.ccs-selector-title, body.mobileDevice h1#ccs-selector-description {    font-size: 18px !important;}
+
+
+
+
+.PageConfig.ConfigStartech {padding: 0;}
+.PageConfig.ConfigStartech iframe, .PageConfig.ConfigNewstar iframe {overflow: hidden;}
+
+@media (max-width: 400px) {
+    .HeadPartLanding .ConfigurateurNavigation .top_icons li{
+        /*text-transform: capitalize!important;*/
+        font-size: 8px!important;
+    }
+    .HeadPartLanding .information_txt {
+    width: 330px!important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************** END CONFIGURATEURS Pages ******************************************************************/
